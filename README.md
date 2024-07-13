@@ -1,4 +1,5 @@
-Welcome,
+<h1 align="center">Petals and Potions Cafe Website</h1>
+
 
 Project Name: Petals and Potions Cafe 
 
