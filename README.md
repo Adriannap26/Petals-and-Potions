@@ -38,6 +38,18 @@ This repository contains all the necessary code and resources to run the Petals 
     - I want to be able to see any upcoming events. The navigation bar should take me to the Events and Bookings section. I should be able to see the dates, times and prices of the events clearly and be able to make reservations using a simple and efficient submission process.
     - I want to be able to subscribe to the newsletter in order to receive special offers and receive communication regarding upcoming events. 
 
+-   ### Design
+     #### Colour Scheme
+        - The shades of the website are a very light grey and charcoal. 
+        - The accents are a lilac and khaki.
+        - The main brand colour is a vibrant burnt orange. 
+        Please note that Colormind was used to aid the colour decision process. 
+     #### Typography
+        -  The Nunito Sans font is the main font used throughout the whole website with Sans Serif as the fallback font.
+     #### Imagery
+        -  ...
+
+
 
 
 
