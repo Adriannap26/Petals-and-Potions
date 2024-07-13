@@ -27,8 +27,18 @@ This repository contains all the necessary code and resources to run the Petals 
      #### Potential Customer Goals
     As a potential customer, I want to learn more about Petals and Potions Cafe, so that I can decide if it’s a place I’d like to visit.
 
-    - <strong>Homepage Exploration:</strong> When I visit the homepage, I should see a hero image with buttons to explore the menu and learn more about the cafe.
-    - 
+    - When I visit the homepage, I want to understand the main purpose of the site and be able to find out more about the Cafe. I want to find clear contact information, including a map, to help me locate the cafe.
+    - As a potential Customer, I want to see what the Cafe looks like and if it is somewhere where I see myself visiting. I should be able to use the navigation bar to access the Gallery section easily. 
+    - I want to view the menu to see what the Cafe offers. I should be able to easily access the menu page from the homepage to see the variety of food and drinks available along with dietary options.
+
+     #### Returning Customer Goals
+    As a returning customer, I want to stay updated on new menu items and upcoming events, so that I can continue to enjoy fresh and exciting experiences at the Petals and Potions Cafe.
+
+    - As a returning Customer, I want to be able to any changes to the menu. I should be able to use the navigation bar to access the menu easily and any new items on the menu should be highlighted. 
+    - I want to be able to see any upcoming events. The navigation bar should take me to the Events and Bookings section. I should be able to see the dates, times and prices of the events clearly and be able to make reservations using a simple and efficient submission process.
+    - I want to be able to subscribe to the newsletter in order to receive special offers and receive communication regarding upcoming events. 
+
+
 
 
 
