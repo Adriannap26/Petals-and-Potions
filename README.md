@@ -1,6 +1,25 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Welcome,
 
-Welcome Adrianna Pawlak,
+Project Name: Petals and Potions Cafe 
+
+Description: Petals and Potions is a fictional website designed to promote and showcase a fictional cafe with a floral-isnpired theme. It features a home oage which 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
