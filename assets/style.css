@@ -6,6 +6,10 @@
     text-transform: uppercase;
 }
 
+.text-center {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -28,7 +32,6 @@ header {
 .petals-and-potions-header {
     color: #e67e4e;
     font-family: "Nunito Sans", sans-serif;
-    text-align: center;
     font-size: 2.5em;
     font-weight: 200;
     padding-top: 10px;
@@ -51,6 +54,30 @@ header p {
 
 /*Nav*/
 
-.navbar {
-background-color: #7f8f6d;
+nav {
+    background-color: #7f8f6d;
+    padding: 1px;
+    margin-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
 }
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-item a {
+    display: block;
+    padding: 15px 30px;
+    color: #f6f7f5;
+    text-align: center;
+    text-decoration: none;
+}
+
