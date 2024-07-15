@@ -92,3 +92,40 @@ nav {
     color: #e7b1fa;
 }
 
+/*Hero image*/
+
+#hero-image {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(70%);
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+}
+
+.view-menu {
+    margin: 0;
+    padding: 0;
+}
