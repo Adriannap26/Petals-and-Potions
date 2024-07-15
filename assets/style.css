@@ -33,33 +33,36 @@ header {
     color: #e67e4e;
     font-family: "Nunito Sans", sans-serif;
     font-size: 2.5em;
-    font-weight: 200;
+    font-weight: 100;
     padding-top: 10px;
     letter-spacing: 2px;
 }
 
 .container-fluid h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #e67e4e
 }
 
-header p {
+.sub-heading {
     text-align: center;
     color: #7f8f6d;
-    margin: 10px;
-    padding: 5px;
+    margin: 0;
+    padding: 2px;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
+
 
 /*Nav*/
 
 nav {
     background-color: #7f8f6d;
     padding: 1px;
-    margin-bottom: 10px;
+    margin: 5px;
     width: 100%;
     overflow: hidden;
+    border: 1px solid #e7b1fa;
+    text-align: center;
 }
 
 .nav-list {
@@ -67,17 +70,25 @@ nav {
     display: flex;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 .nav-item {
     margin: 0;
+    display: inline-block;
 }
 
 .nav-item a {
     display: block;
-    padding: 15px 30px;
-    color: #f6f7f5;
+    padding: 0 90px 0 90px;
+    margin: 10px;
+    color: #282631;
     text-align: center;
     text-decoration: none;
+    font-size: 0.9em;
+}
+
+.nav-item a:hover {
+    color: #e7b1fa;
 }
 
