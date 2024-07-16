@@ -11,13 +11,12 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-            <div class="petals-and-potions-header uppercase text-center">
+        <div class="uppercase text-center">
                 <a href="index.html" aria-label="Home Page">
-                    <h1><i class="fa-brands fa-pagelines"></i>Petals & Potions</h1>
+                    <h2 class="petals-and-potions-header"><i class="fa-brands fa-pagelines"></i>Petals & Potions</h2>
                 </a>
-            </div>
         </div>
+
         <div class="sub-heading">
             <p><em>Chill, indulge, and immerse yourself in botanical vibes with our 
             floral-inspired treats and fresh local blooms.</em></p>
@@ -26,37 +25,34 @@
         <nav class="text-center uppercase">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="index.html" aria-label="Got to the Home page">Home <i class="fa-solid fa-house-chimney"></i></a>
+                    <a href="index.html" class="active" aria-label="Go to the Home page">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" aria-label="Got to the Menu">Menu <i class="fa-solid fa-mug-saucer"></i></a>
+                    <a href="#" aria-label="Go to the Menu">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" aria-label="Got to the Gallery">Gallery <i class="fa-solid fa-image"></i></a>
+                    <a href="#" aria-label="Go to the Gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" aria-label="Got to Events and Bookings">Events & Bookings <i class="fa-regular fa-calendar-check"></i></a>
+                    <a href="#" aria-label="Go to Events and Bookings">Events & Bookigs</a>
                 </li>
             </ul>
-         </nav>
+        </nav>
     </header>
 
     <section>
-        <div id="hero-image" alt="picture of flowers">
-            <img src="assets/images/heroimage.jpeg">
-                <div class="image-overlay">
-                    <div class="hero-content">
-                     <div id="view-menu">
-                        <h2>
-                            <a href="menu.html">Explore our Menu</a>
-                        </h2>
-                    </div>
-                    <div id="view-about-us">
-                         <h2>
-                            <a href="aboutus.html">Learn more about us</a>
-                        </h2>
-                    </div>
+        <div id="hero-outer">
+            <div>
+                <img src="assets/images/heroimage.jpeg" alt="picture of flowers" id="hero-image">
+            </div>
+            <div>
+                <div id="cover-links-container-left">
+                    <h3 class="uppercase"><a href="#">Explore our Menu</a></h3>
                 </div>
+                <div id="cover-links-container-right">
+                    <h3 class="uppercase"><a href="#">Learn more about us</a></h3>
+                </div>
+            </div>
         </div>
     </section>
    
