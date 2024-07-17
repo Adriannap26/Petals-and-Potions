@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 /*General*/
 
 .uppercase {
@@ -26,7 +25,7 @@ h3 {
 }
 
 body {
-    background-color: #abbe94;
+    background-color: #faf8f8;
     font-family: "Montserrat",sans-serif;
 }
 
@@ -36,11 +35,11 @@ header {
 }
 
 .petals-and-potions-header {
-    color: #f6f7f5;
+    color: #271c35;
     text-align: center;
-    font-size: 5em;
-    font-weight: 200;
-    letter-spacing: 3px;
+    font-size: 5.3em;
+    font-weight: 100;
+    letter-spacing: 4px;
 }
 
 .container-fluid h1 {
@@ -50,10 +49,10 @@ header {
 
 .sub-heading {
     text-align: center;
-    color: #7f8f6d;
+    color: #a9979e;
     margin: 0;
     padding: 2px;
-    font-weight: 100;
+    font-weight: 250;
     font-size: 1.25em;
 }
 
@@ -61,9 +60,8 @@ header {
 /*Nav*/
 
 nav {
-    background-color: #7f8f6d;
-    padding: 1px;
-    margin: 10px;
+    background-color: #945f70;
+    padding: 0px;
     width: 100%;
     overflow: hidden;
     text-align: center;
@@ -78,6 +76,7 @@ nav {
 
 .nav-item {
     margin: 0;
+    padding: 0;
     display: inline-block;
 }
 
@@ -85,7 +84,7 @@ nav {
     display: block;
     padding: 0 50px 0 50px;
     margin: 10px;
-    color: #282631;
+    color: #faf8f8;
     text-align: center; 
     text-decoration: none;
     font-size: 0.9em;
@@ -93,18 +92,13 @@ nav {
 }
 
 .nav-item a:hover {
-    color: #e7b1fa;
-}
-
-.active {
-    border-bottom: 1px solid #282631;
-    
+    color: #d68ffc;
 }
 
 /*Hero image*/
 
 #hero-outer {
-    height: 450px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -112,7 +106,7 @@ nav {
 
 #hero-image {
     position: relative;
-    height: 450px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -136,23 +130,23 @@ nav {
     height: 17%;
     top: 65%;
     left: 5%;
-    background-color: rgb(127, 143, 109, 0.6);
+    background-color: rgb(148, 95, 112, 0.6);
     padding: 20px;
   }
 
   #cover-links-container-left h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 3px;
   }
 
   #cover-links-container-left a {
-    color: #e7b1fa;
+    color: #faf8f8;
   }
 
   #cover-links-container-left a:hover {
-    color: #282631;
+    color: #d68ffc;
   }
 
   #cover-links-container-right{
@@ -161,30 +155,30 @@ nav {
     height: 17%;
     top: 65%;
     right: 5%;
-    background-color: rgb(127, 143, 109, 0.6);
+    background-color: rgb(148, 95, 112, 0.6);
     padding: 20px;
   }
 
   #cover-links-container-right h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 3px;
   }
 
   #cover-links-container-right a {
-    color: #e7b1fa;
+    color: #faf8f8;
   }
 
   #cover-links-container-right a:hover {
-    color: #282631;
+    color: #d68ffc;
   }
 
   /*Footer*/
 
 footer {
-    background: #f6f7f5;
-    background-color:#282631;
+    height: 150px;
+    background: #945f70;
     margin: 0;
     display: block;
 }
@@ -201,6 +195,10 @@ footer {
 #social-media i {
     padding: 30px;
     margin: 20px;
-    color: #e7b1fa;
+    color: #faf8f8;
     font-size: 2em;
+}
+
+#social-media i:hover {
+    color: #d68ffc;
 }
