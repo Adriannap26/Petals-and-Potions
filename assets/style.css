@@ -61,7 +61,7 @@ header {
 
 nav {
     background-color: #945f70;
-    padding: 0px;
+    padding: 0;
     width: 100%;
     overflow: hidden;
     text-align: center;
@@ -98,7 +98,7 @@ nav {
 /*Hero image*/
 
 #hero-outer {
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -106,8 +106,9 @@ nav {
 
 #hero-image {
     position: relative;
-    height: 500px;
+    height: 600px;
     width: 100%;
+    padding: 0;
     overflow: hidden;
     background-repeat: no-repeat;
     display: block;
@@ -178,9 +179,9 @@ nav {
 
   #about-us h2 {
     text-align: center;
-    color: #d68ffc;
+    color: #945f70;
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin: 25px 0;
   }
 
@@ -205,21 +206,38 @@ nav {
 
   #about-us-container h3 {
     text-align: center;
-    color: #d68ffc;
-    font-weight: 250;
+    color: #a9979e;
+    font-weight: 300;
     letter-spacing: 3px;
-    font-size: 2em;
+    font-size: 1.6em;
     padding-bottom: 10px;
   }
 
   #about-us-container p {
     text-align: center;
+    color: #271c35;
   }
 
  /*Contact Info*/
-    #visit-us-container {
-        text-align: center;
+
+ #visit-us {
+    margin-top: 0;
+    padding: 40px;
+ }
+
+    #visit-us h3 {
+    text-align: center;
+    color: #945f70;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 2.2em;
     }
+
+ #visit-us p {
+    text-align: center;
+    color: #271c35;
+ }
+
 
   /*Footer*/
 
