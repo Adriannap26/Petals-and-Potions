@@ -238,6 +238,66 @@ nav {
     color: #271c35;
  }
 
+ .contact-info-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+
+ .contact-info-container h4 {
+  font-weight: 350;
+  font-size: 1.2em;
+  color: #d68ffc;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+ }
+
+ .contact-info-container p {
+  font-size: 1em;
+  color: #945f70;
+ }
+
+ #address-container {
+  float: left;
+  left: 25%;
+  text-align: center;
+  padding: 0 40px 0 40px;
+  margin: 0;
+ }
+
+ #contact-information {
+  float: left;
+  left: 75%;
+  margin: 0;
+  padding: 0 40px 0 40px;
+  text-align: center;
+ }
+
+#opening-hours {
+  float: left;
+  left: 100%;
+  margin: 0;
+  padding: 0 40px 0 40px;
+  text-align: center;
+}
+
+#accessability-container {
+  float: left;
+  left: 50%;
+  width: 25%;
+  margin: 0;
+  padding: 0 40px 0 40px;
+  text-align: center;
+ }
+
+#opening-hours p{
+  color: #a9979e;
+}
+
+#opening-hours table{
+  color: #945f70;
+  text-align: center;
+}
 
   /*Footer*/
 
