@@ -306,5 +306,57 @@ nav {
     color: #d68ffc;
   }
 
+  /*Menu*/
 
+  .menu-section {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
 
+  .menu-section h3 {
+    text-align: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+
+  .menu-section h4 {
+    text-align: inherit;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #945f70;
+  }
+
+  .prices {
+    color: #a9979e;
+  }
+
+ #dietary-requirements {
+  padding: 10px;
+  margin: 0;
+}
+
+  #dietary-requirements p {
+    color: #d68ffc;
+
+  }
+
+  #drinks {
+
+  }
+
+  #food {
+
+  }
+
+  #desserts {
+
+  }
+
+  #seasonal-specials {
+
+  }
