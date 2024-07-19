@@ -24,9 +24,12 @@ h3 {
     margin: 0;
 }
 
-body {
+body, html {
     background-color: #faf8f8;
     font-family: "Montserrat",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /*Header*/
@@ -187,21 +190,25 @@ nav {
 
 
   #about-us-container {
+    clear: both;
     width: 100%;
     padding: 10px;
     margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .about-us-container-left, .about-us-container-right {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
   .about-us-container-left {
     float: left;
-    width: 50%;
-    padding: 10px;
   }
 
   .about-us-container-right {
     float: right;
-    width: 50%;
-    padding: 10px;
   }
 
   #about-us-container h3 {
@@ -216,114 +223,88 @@ nav {
   #about-us-container p {
     text-align: center;
     color: #271c35;
+    padding: 5px 0 20px 0;
   }
 
- /*Contact Info*/
+ /*Footer*/
 
- #visit-us {
-    margin-top: 0;
-    padding: 40px;
- }
-
-    #visit-us h3 {
-    text-align: center;
-    color: #945f70;
-    font-weight: 300;
-    letter-spacing: 3px;
-    font-size: 2.2em;
-    }
-
- #visit-us p {
-    text-align: center;
-    color: #271c35;
- }
-
- .contact-info-container {
+ footer {
+  background-color:#945f70;
+  padding: 20px;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-info-column, .social-links-column {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+  min-width: 200px;
  }
 
- .contact-info-container h4 {
-  font-weight: 350;
-  font-size: 1.2em;
-  color: #d68ffc;
-  text-transform: uppercase;
-  letter-spacing: 3px;
- }
-
- .contact-info-container p {
+ .contact-info-column h4,
+ .social-links-column h4 {
+  font-weight: 300;
   font-size: 1em;
-  color: #945f70;
+  color: #faf8f8;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
  }
 
- #address-container {
-  float: left;
-  left: 25%;
-  text-align: center;
-  padding: 0 40px 0 40px;
-  margin: 0;
+ .contact-info-column p, 
+ .contact-info-column address, 
+ .contact-info-column table, 
+ .social-links-column p {
+  font-size: 0.9em;
+  color: #faf8f8;
  }
 
- #contact-information {
-  float: left;
-  left: 75%;
-  margin: 0;
-  padding: 0 40px 0 40px;
-  text-align: center;
+ .contact-info-column a, .social-links-column a {
+  color: #faf8f8;
+  text-decoration: none;
  }
 
-#opening-hours {
-  float: left;
-  left: 100%;
-  margin: 0;
-  padding: 0 40px 0 40px;
-  text-align: center;
-}
-
-#accessability-container {
-  float: left;
-  left: 50%;
-  width: 25%;
-  margin: 0;
-  padding: 0 40px 0 40px;
-  text-align: center;
+ .contact-info-column a:hover,
+ .social-links-column a:hover {
+  color: #271c35;
+  text-decoration: underline;
  }
 
-#opening-hours p{
-  color: #a9979e;
-}
-
-#opening-hours table{
-  color: #945f70;
+ .social-links-column i {
+  padding: 20px;
   text-align: center;
-}
+  font-size: 1.7em;
+ }
 
-  /*Footer*/
+ #opening-hours p {
+  color: #faf8f8;
+  }
 
-footer {
-    height: 150px;
-    background: #945f70;
-    margin: 0;
-    display: block;
-}
-
-#social-media {
-    text-align: center;
-}
-
-#social-media li {
-    display: inline;
-    float: top right;
-}
-
-#social-media i {
-    padding: 30px;
-    margin: 20px;
+  #opening-hours table {
     color: #faf8f8;
-    font-size: 2em;
-}
+    text-align: center;
+  }
 
-#social-media i:hover {
+  #opening-hours p {
     color: #d68ffc;
-}
+  }
+
+
+
