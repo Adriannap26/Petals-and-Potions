@@ -316,7 +316,6 @@ nav {
 
   .menu-section h3 {
     text-align: inherit;
-    text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 300;
@@ -344,4 +343,11 @@ nav {
   #dietary-requirements p {
     color: #d68ffc;
 
+  }
+
+
+  /*Gallery*/
+
+  .gallery-container {
+    overflow: hidden;
   }
