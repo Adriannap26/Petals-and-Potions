@@ -24,7 +24,7 @@ This is where the image with different browsers and screen sizes will go TBC
 
 ## [Design](#design)
 
-## [Wireframes](#wireframes)
+## [Wireframes and Structure](#wireframes)
 
 ## [Features](#features)
 
@@ -65,15 +65,59 @@ This is where the image with different browsers and screen sizes will go TBC
    - The main brand colour is muave. 
    Please note that Colormind was used to aid the colour decision process. 
 
+   <br>
+   #link colour scheme photo here
+   <br>
+
    ### Typography
    -  The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font.
 
    ### Imagery
-   -  Pixels images have been used for the home and gallery pages. 
+   -  [Pixels](https://www.pexels.com/) images have been used for the home and gallery pages. 
 
-## Wireframes
+## Wireframes and Structure
+
+I used Balsamiq to create my wireframes. These were a rough idea of what I wanted to achieve, however I did make some changes to the structure of the page whilst coding, please see below for more imformation.
+
+- As shown in the wireframes, I first wanted to add the contact information below the about us section. However, whilst coding I realised that contact information is very important for the User and that  it would be handy to include it in the footer. This way the user can view the contact information on any page and it will also be a lot easier and quicker to find. 
+
+- I amended the structure of the menu and changed the name of 'bevergaes' to 'drinks'. I reliased that having the menu sections horizontally aligned wouldn't give me much space and it would have probably looked a little too constricted. 
+
+- The hero image in the wireframe has two buttons. I also decided to add a testimonial to the top of the hero image as it looked like the space looked too empty. 
+
+<br>
+
+- Home Page Wireframe - [view](#)
+
+- Menu Page Wireframe - [view](#)
+
+- Gallery Page Wireframe - [view](#)
+
+- Events & Bookings Page Wireframe - [view](#)
+
+- Mobile Home Page Wireframe - [view](#)
+
+- Mobile Menu Page Wireframe - [view](#)
+
+- Mobile Gallery Page Wireframe - [view](#)
+
+- Mobile Events & Bookimgs Page Wireframe - [view](#)
+
+- Tablet Home Page Wireframe - [view](#)
+
+- Tablet Menu Page Wireframe - [view](#)
+
+- Tablet Gallery Page Wireframe - [view](#)
+
+- Tablet Events & Bookings Page Wireframe - [view](#)
 
 ## Features
+
+All pages contain the same header and footer. 
+
+<strong>Header:</strong> The header includes a very simple and classy logo. Beneath the logo is the horizontal negivation section which is easy to see and operate making it user friendly. 
+
+<strong>Footer:</strong> The footer includes all 
 
 ## Technologies
 
