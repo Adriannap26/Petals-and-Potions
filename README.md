@@ -117,9 +117,29 @@ All pages contain the same header and footer.
 
 <strong>Header:</strong> The header includes a very simple and classy logo. Beneath the logo is the horizontal negivation section which is easy to see and operate making it user friendly. 
 
-<strong>Footer:</strong> The footer includes all 
+INSERT HEADER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
+
+<strong>Footer:</strong> The footer includes all contact information including telephone number, email address, venue address as well as social media links. 
+
+INSERT FOOTER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
 
 ## Technologies
+
+### Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) 
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks and Libraries
+
+- [Bootstrap v.5.3.3]()
+- [jQuery]()
+- [Balsamiq]()
+- [Am I Responsive Design]()
+- [Google Fonts]()
+- [Font Awesome]()
+- [Github]()
+- [Git]()
 
 ## Testing
 
