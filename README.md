@@ -85,6 +85,8 @@ I used Balsamiq to create my wireframes. These were a rough idea of what I wante
 
 - The hero image in the wireframe has two buttons. I also decided to add a testimonial to the top of the hero image as it looked like the space looked too empty. 
 
+-  I rearranged the layout of the gallery as I thought it looks neater when the photos are in two columns. 
+
 <br>
 
 - Home Page Wireframe - [view](#)
