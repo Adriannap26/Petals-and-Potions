@@ -362,3 +362,71 @@ nav {
     border-radius: 3px;
   }
 
+  /*Events & Bookings*/
+
+  #events-heading {
+    position: absolute;
+    width: 35%;
+    height: 17%;
+    background-color: rgb(148, 95, 112, 0.6);
+    padding: 20px;
+  }
+
+  #events-heading h3{
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+
+  #cover-links-container-left{
+    position: absolute;
+    width: 35%;
+    height: 17%;
+    top: 65%;
+    left: 5%;
+    background-color: rgb(148, 95, 112, 0.6);
+    padding: 20px;
+  }
+
+  #cover-links-container-left h3 {
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+
+  #cover-links-container-left a {
+    color: #faf8f8;
+  }
+
+  #cover-links-container-left a:hover {
+    color: #d68ffc;
+  }
+
+  #cover-links-container-right{
+    position: absolute;
+    width: 35%;
+    height: 17%;
+    top: 65%;
+    right: 5%;
+    background-color: rgb(148, 95, 112, 0.6);
+    padding: 20px;
+  }
+
+  #cover-links-container-right h3 {
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+
+  #cover-links-container-right a {
+    color: #faf8f8;
+  }
+
+  #cover-links-container-right a:hover {
+    color: #d68ffc;
+  }
+
+
