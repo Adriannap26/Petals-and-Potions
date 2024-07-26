@@ -149,6 +149,8 @@ INSERT FOOTER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
 
 ## Credits
 
+Events and Bookings Page positioning https://love2dev.com/blog/absolute-centering-css/
+
 
 
 
