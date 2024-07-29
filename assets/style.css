@@ -4,7 +4,7 @@
 /*General*/
 
 html, body {
-  overflow-x: hidden;
+  margin: 0;
 }
 
 .uppercase {
@@ -454,6 +454,7 @@ nav {
   #book-here-button:hover {
     color: #d68ffc;
   }
+
 
 
 
