@@ -75,52 +75,65 @@
             </div>
         </section>
 
-        <form id="form-container" action="#"  method="post">
-            <div class="form-content">
-                <div id="booking-heading">
-                    <h3>Plan Your Visit</h3>
-                    <p>Book your table, event or get your questions answered here!</p>
-                </div>
-                <div id="main-form">
-                    <fieldset>
-                        <legend>Your Details</legend>
-                        <label for="fname">First Name:</label>
-                        <input type="text" name="fname" id="fname" class="form-control" placeholder="Your First Name" aria-label="Your First Name" required>
-                        <label for="lname">Last Name:</label>
-                        <input type="text" name="lname" id="lname" class="form-control" placeholder="Your Last Name" aria-label="Your Last Name" required>
-                        <label for="email">E-mail Address:</label>
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Your E-mail Address" aria-label="Your E-mail Address" required>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Booking Information</legend>
-                        <label for="bookingtype">Booking Type:</label>
-                        <select name="bookingtype" id="bookingtype" class="form-control" aria-label="Booking Type" required>
-                            <option selected>Select your booking type</option>
-                            <option>Table booking</option>
-                            <option>Event: Floral Arrangement Workshop</option>
-                            <option>Event: Autumn Harvest Dinner</option>
-                            <option>Event: Craft Your Mocktail</option>
-                            <option>Other</option>
-                        </select>
-                        <label for="bookingdate">Booking Date:</label>
-                        <input type="date" id="bookingdate" name="bookingdate" class="form-control" aria-label="Date of booking">
-                        <label for="people">Number of people:</label>
-                        <input type="number" id="people" name="people" class="form-control" placeholder="Amount of people attending" aria-label="Amount of people attending">
-                    </fieldset>
-                    <div id="additional-information">
-                        <label for="fname">Additional Information</label>
-                        <br>
-                        <textarea name="additionalinfo" id="additionalinfo" class="form-control" cols="50" rows="5"
-                            placeholder="Please include any additional information regarding your booking here" 
-                            aria-label="Additional booking information">
-                        </textarea>
+        <div class="d-flex justify-content-center align-items-center min-vh-100">
+            <form id="form-container" action="#"  method="post" class="w-50">
+                <div class="form-content">
+                    <div id="booking-heading" class="text-center mb-4">
+                        <h3>Plan Your Visit</h3>
+                        <p>Book your table, event or get your questions answered here!</p>
+                    </div>
+                    <div id="main-form">
+                        <fieldset>
+                            <legend>Your Details</legend>
+                            <div class="mb-3">
+                                <label for="fname">First Name:</label>
+                                <input type="text" name="fname" id="fname" class="form-control" placeholder="Your First Name" aria-label="Your First Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="lname">Last Name:</label>
+                                <input type="text" name="lname" id="lname" class="form-control" placeholder="Your Last Name" aria-label="Your Last Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">E-mail Address:</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Your E-mail Address" aria-label="Your E-mail Address" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Booking Information</legend>
+                            <div class="mb-3">
+                                <label for="bookingtype">Booking Type:</label>
+                                <select name="bookingtype" id="bookingtype" class="form-control" aria-label="Booking Type" required>
+                                    <option selected>Select your booking type</option>
+                                    <option>Table booking</option>
+                                    <option>Event: Floral Arrangement Workshop</option>
+                                    <option>Event: Autumn Harvest Dinner</option>
+                                    <option>Event: Craft Your Mocktail</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="bookingdate">Booking Date:</label>
+                                <input type="date" id="bookingdate" name="bookingdate" class="form-control" aria-label="Date of booking">
+                            </div>
+                            <div class="mb-3">
+                                <label for="people">Number of people:</label>
+                                <input type="number" id="people" name="people" class="form-control" placeholder="Amount of people attending" aria-label="Amount of people attending">
+                            </div>
+                        </fieldset>
+                        <div id="additional-information mb-4">
+                            <label for="additionalinfo">Additional Information</label>
+                            <textarea name="additionalinfo" id="additionalinfo" class="form-control" cols="50" rows="5"
+                                placeholder="Please include any additional information regarding your booking here" 
+                                aria-label="Additional booking information">
+                            </textarea>
+                        </div>
+                    </div>
+                    <div id="form-submit" class="text-center">
+                        <input type="submit" name="submit" id="submit" class="btn btn-secondary" value="Send Booking Enquiry">
                     </div>
                 </div>
-                <div id="form-submit">
-                    <input type="submit" name="submit" id="submit" value="Send Booking Enquiry">
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
 
         <footer>
             <div class="footer-content">
