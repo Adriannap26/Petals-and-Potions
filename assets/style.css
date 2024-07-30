@@ -372,6 +372,7 @@ nav {
   #upcoming-events {
     position: relative;
     color: #f6f7f5;
+    padding-bottom: 20px;
   }
 
   #events-outer {
@@ -454,6 +455,48 @@ nav {
   #book-here-button:hover {
     color: #d68ffc;
   }
+
+  #form-container {
+    background-color: #a9979e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+  }
+
+  #booking-heading h3 {
+    font-weight: 300;
+    color: #945f70;
+  }
+
+  #booking-heading p {
+    color: #945f70;
+  }
+
+  #form-content legend {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #945f70;
+    font-size: 1.2em;
+  }
+
+  #form-content label {
+    color: #faf8f8;
+  }
+
+  .btn-secondary {
+    background-color: #945f70;
+    border: none;
+  }
+
+  .btn-secondary:hover {
+    background: #945f70;
+    border: none;
+    color: #d68ffc;
+  }
+
+
+
+
 
 
 
