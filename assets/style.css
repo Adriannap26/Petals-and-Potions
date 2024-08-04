@@ -106,7 +106,7 @@ nav {
 /*Hero image*/
 
 #hero-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -114,7 +114,7 @@ nav {
 
 #hero-image {
     position: relative;
-    height: 600px;
+    height: 500px;
     width: 100%;
     padding: 0;
     overflow: hidden;
@@ -136,15 +136,15 @@ nav {
   #cover-links-container-left{
     position: absolute;
     width: 35%;
-    height: 17%;
-    top: 65%;
+    height: 15%;
+    top: 55%;
     left: 5%;
-    background-color: rgb(148, 95, 112, 0.6);
+    background-color: rgb(148, 95, 112, 0.7);
     padding: 20px;
   }
 
   #cover-links-container-left h3 {
-    font-size: 1.6em;
+    font-size: 1.7em;
     text-align: center;
     font-weight: 300;
     letter-spacing: 3px;
@@ -161,15 +161,15 @@ nav {
   #cover-links-container-right{
     position: absolute;
     width: 35%;
-    height: 17%;
-    top: 65%;
+    height: 15%;
+    top: 55%;
     right: 5%;
-    background-color: rgb(148, 95, 112, 0.6);
+    background-color: rgb(148, 95, 112, 0.7);
     padding: 20px;
   }
 
   #cover-links-container-right h3 {
-    font-size: 1.6em;
+    font-size: 1.7em;
     text-align: center;
     font-weight: 300;
     letter-spacing: 3px;
@@ -191,6 +191,7 @@ nav {
     font-weight: 300;
     font-size: 2.2em;
     margin: 25px 0;
+    padding-top: 20px;
   }
 
 
