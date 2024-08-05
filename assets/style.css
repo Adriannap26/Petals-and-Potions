@@ -45,7 +45,7 @@ header {
 .petals-and-potions-header {
     color: #271c35;
     text-align: center;
-    font-size: 5.3em;
+    font-size: 5.5em;
     font-weight: 100;
     letter-spacing: 4px;
 }
@@ -95,12 +95,12 @@ nav {
     color: #faf8f8;
     text-align: center; 
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 1em;
     letter-spacing: 3px;
 }
 
 .nav-item a:hover {
-    color: #d68ffc;
+    color: #efd3fd;
 }
 
 /*Hero image*/
@@ -144,7 +144,7 @@ nav {
   }
 
   #cover-links-container-left h3 {
-    font-size: 1.7em;
+    font-size: 1.8em;
     text-align: center;
     font-weight: 300;
     letter-spacing: 3px;
@@ -155,7 +155,7 @@ nav {
   }
 
   #cover-links-container-left a:hover {
-    color: #d68ffc;
+    color: #efd3fd;
   }
 
   #cover-links-container-right{
@@ -169,7 +169,7 @@ nav {
   }
 
   #cover-links-container-right h3 {
-    font-size: 1.7em;
+    font-size: 1.8em;
     text-align: center;
     font-weight: 300;
     letter-spacing: 3px;
@@ -180,7 +180,7 @@ nav {
   }
 
   #cover-links-container-right a:hover {
-    color: #d68ffc;
+    color: #efd3fd;
   }
 
   /*About Us*/
@@ -189,7 +189,7 @@ nav {
     text-align: center;
     color: #945f70;
     font-weight: 300;
-    font-size: 2.2em;
+    font-size: 2.6em;
     margin: 25px 0;
     padding-top: 20px;
   }
@@ -198,7 +198,7 @@ nav {
   #about-us-container {
     clear: both;
     width: 100%;
-    padding: 10px;
+    padding: 2px 20px 2px 20px;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -221,20 +221,19 @@ nav {
     text-align: center;
     color: #a9979e;
     font-weight: 300;
-    letter-spacing: 3px;
     font-size: 1.6em;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   #about-us-container p {
     text-align: center;
     color: #271c35;
-    padding: 5px 0 20px 0;
+    padding: 10px;
+    margin: 10px;
   }
 
 
   /*Founders*/
-
 
   #founders-container {
     background-color: #a9979e;
@@ -243,14 +242,16 @@ nav {
   }
 
   #founders h3 {
-    font-size: 2.2em;
+    font-size: 2.6em;
     color: #945f70;
     font-weight: 300;
-    padding: 10px;
+    padding: 20px 0 10px 0;
+    margin: 10px;
   }
 
   #founders h4 {
-    color: #faf8f8;
+    color: #efd3fd;
+    font-size: 1.7em;
     font-weight: 300;
   }
 
@@ -265,10 +266,10 @@ nav {
   }
 
   #our-story p {
-    color: #945f70;
+    color: #271c35;
+    padding: 0;
+    margin: 10px;
   }
-
-
 
  /*Footer*/
 
@@ -337,6 +338,10 @@ nav {
   font-size: 1.7em;
  }
 
+ .social-links-column a:hover {
+  color: #efd3fd;
+ }
+
  #opening-hours p {
   color: #faf8f8;
   }
@@ -347,7 +352,7 @@ nav {
   }
 
   #opening-hours p {
-    color: #d68ffc;
+    color: #efd3fd;
   }
 
   /*Menu*/
@@ -385,12 +390,12 @@ nav {
 }
 
   #dietary-requirements p {
-    color: #d68ffc;
+    color: #efd3fd;
 
   }
 
   .bg-secondary {
-    background-color: #d68ffc !important;
+    background-color: #efd3fd !important;
   }
 
 
@@ -496,7 +501,7 @@ nav {
   }
 
   #book-here-button:hover {
-    color: #d68ffc;
+    color: #efd3fd;
   }
 
   #form-container {
@@ -534,7 +539,7 @@ nav {
   .btn-secondary:hover {
     background: #945f70;
     border: none;
-    color: #d68ffc;
+    color: #efd3fd;
   }
 
 
