@@ -67,29 +67,29 @@ I used Balsamiq to create my wireframes. These were a rough idea of what I wante
 
 ### Wireframes
 
-- Home Page Wireframe - [view](#)
+- Home Page Wireframe - [view](documentation/wireframes/home.png)
 
-- Menu Page Wireframe - [view](#)
+- Menu Page Wireframe - [view](documentation/wireframes/menu.png)
 
-- Gallery Page Wireframe - [view](#)
+- Gallery Page Wireframe - [view](documentation/wireframes/gallery.png)
 
-- Events & Bookings Page Wireframe - [view](#)
+- Events & Bookings Page Wireframe - [view](documentation/wireframes/events-booking.png)
 
-- Mobile Home Page Wireframe - [view](#)
+- Mobile Home Page Wireframe - [view](documentation/wireframes/phone-home.png)
 
-- Mobile Menu Page Wireframe - [view](#)
+- Mobile Menu Page Wireframe - [view](documentation/wireframes/phone-menu.png)
 
-- Mobile Gallery Page Wireframe - [view](#)
+- Mobile Gallery Page Wireframe - [view](documentation/wireframes/phone-gallery.png)
 
-- Mobile Events & Bookimgs Page Wireframe - [view](#)
+- Mobile Events & Bookings Page Wireframe - [view](documentation/wireframes/phone-events-bookings.png)
 
-- Tablet Home Page Wireframe - [view](#)
+- Tablet Home Page Wireframe - [view](documentation/wireframes/ipad-home.png)
 
-- Tablet Menu Page Wireframe - [view](#)
+- Tablet Menu Page Wireframe - [view](documentation/wireframes/ipad-menu.png)
 
-- Tablet Gallery Page Wireframe - [view](#)
+- Tablet Gallery Page Wireframe - [view](documentation/wireframes/ipad-gallery.png)
 
-- Tablet Events & Bookings Page Wireframe - [view](#)
+- Tablet Events & Bookings Page Wireframe - [view](documentation/wireframes/ipad-events-bookings.png)
 
 ## Features
 
