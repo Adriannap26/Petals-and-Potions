@@ -15,10 +15,6 @@ html, body {
     letter-spacing: 3px;
 }
 
-.text-center {
-    text-align: center;
-}
-
 a {
     text-decoration: none;
 }
@@ -42,25 +38,18 @@ header {
     margin: 0;
 }
 
-.petals-and-potions-header {
+#petals-and-potions-header {
     color: #271c35;
     text-align: center;
     font-size: 5.5em;
     font-weight: 100;
-    letter-spacing: 4px;
 }
 
-.container-fluid h1 {
-    font-size: 1.3em;
-    color: #f6f7f5
-}
-
-.sub-heading {
-    text-align: center;
+#sub-heading {
     color: #a9979e;
     margin: 0;
     padding: 2px;
-    font-weight: 250;
+    font-weight: 300;
     font-size: 1.25em;
 }
 
@@ -201,6 +190,8 @@ nav {
     padding: 2px 20px 2px 20px;
     margin: 0 auto;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .about-us-container-left, .about-us-container-right {
@@ -232,8 +223,11 @@ nav {
     margin: 10px;
   }
 
-
   /*Founders*/
+
+  #founders {
+    padding: 20px;
+  }
 
   #founders-container {
     background-color: #a9979e;
@@ -542,7 +536,17 @@ nav {
     color: #efd3fd;
   }
 
+  @media (max-width:768px) {
 
+    .petals-and-potions-header {
+      font-size: 2em;
+    }
+
+    .about-us-container-left, .about-us-container-right {
+      width: 100%;
+    }
+    
+  }
 
 
 
