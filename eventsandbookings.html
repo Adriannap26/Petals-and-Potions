@@ -2,39 +2,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font awesome Code -->
         <script src="https://kit.fontawesome.com/3243f8f354.js" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- bootstrap Code -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <title>Petals and Potions</title>
         <link rel="stylesheet" href="assets/style.css">
     </head>
-
     <body>
+         <!-- Logo Sub-heading -->
         <header>
-            <div class="uppercase text-center">
-                <a href="index.html" aria-label="Home Page">
-                    <h2 class="petals-and-potions-header">Petals & Potions</h2>
-                 </a>
+            <div class="container-fluid uppercase text-center text-spacing">
+                <div class="row" id="main-heading">
+                    <a href="index.html" aria-label="Home Page">
+                        <h1>Petals & Potions</h1>
+                    </a>
+                </div>
             </div>
 
-            <div class="sub-heading">
+            <div id="sub-heading" class="container-fluid text-center">
                 <p><em>Chill, indulge, and immerse yourself in botanical vibes with our 
-                 floral-inspired treats and fresh local blooms.</em></p>
+                    floral-inspired treats and fresh local blooms.</em>
+                </p>
             </div>
 
-            <nav class="text-center uppercase">
-                <ul class="nav-list">
+            <!-- Nav bar -->
+
+            <nav class="container-fluid text-center uppercase">
+                <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                        <a href="index.html" aria-label="Go to the Home page">Home</a>
+                        <a class="nav-link" aria-current="Home" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="menu.html" aria-label="Go to the Menu">Menu</a>
+                        <a class="nav-link" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a href="gallery.html" aria-label="Go to the Gallery">Gallery</a>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a href="eventsandbookings.html" aria-label="Go to Events and Bookings">Events & Bookings</a>
+                        <a class="nav-link active" href="eventsandbookings.html">Events & Bookings</a>
                     </li>
                 </ul>
             </nav>
@@ -166,5 +172,6 @@
                 </div>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
 </html>

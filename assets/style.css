@@ -38,11 +38,11 @@ header {
     margin: 0;
 }
 
-#petals-and-potions-header {
-    color: #271c35;
-    text-align: center;
-    font-size: 5.5em;
-    font-weight: 100;
+
+#main-heading h1 {
+  color: #271c35;
+  font-weight: 100;
+  font-size: 4.5em;
 }
 
 #sub-heading {
@@ -58,34 +58,20 @@ header {
 
 nav {
     background-color: #945f70;
-    padding: 0;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-}
-
-.nav-list {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    display: inline;
-}
-
-.nav-item {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
 }
 
 .nav-item a {
-    display: block;
-    padding: 0 50px 0 50px;
-    margin: 10px;
-    color: #faf8f8;
-    text-align: center; 
-    text-decoration: none;
-    font-size: 1em;
-    letter-spacing: 3px;
+  display: block;
+  padding: 5px 50px 5px 50px;
+  margin: 10px;
+  color: #faf8f8;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 3px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #efd3fd;
 }
 
 .nav-item a:hover {
