@@ -9,44 +9,45 @@
         <title>Petals and Potions</title>
         <link rel="stylesheet" href="assets/style.css">
     </head>
+
     <body>
-         <!-- Logo Sub-heading -->
-        <header>
-            <div class="container-fluid uppercase text-center text-spacing">
-                <div class="row" id="main-heading">
-                    <a href="index.html" aria-label="Home Page">
-                        <h1>Petals & Potions</h1>
-                    </a>
-                </div>
-            </div>
+        <!-- Logo Sub-heading -->
+       <header>
+           <div class="container-fluid uppercase text-center text-spacing">
+               <div class="row" id="main-heading">
+                   <a href="index.html" aria-label="Home Page">
+                       <h1>Petals & Potions</h1>
+                   </a>
+               </div>
+           </div>
 
-            <div id="sub-heading" class="container-fluid text-center">
-                <p><em>Chill, indulge, and immerse yourself in botanical vibes with our 
-                    floral-inspired treats and fresh local blooms.</em>
-                </p>
-            </div>
+           <!-- Nav bar -->
 
-            <!-- Nav bar -->
+           <nav class="container-fluid text-center uppercase">
+               <ul class="nav nav-pills nav-fill">
+                   <li class="nav-item">
+                       <a class="nav-link" aria-current="Home" href="index.html">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link active" href="menu.html">Menu</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="gallery.html">Gallery</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="eventsandbookings.html">Events & Bookings</a>
+                   </li>
+               </ul>
+           </nav>
+       </header>
 
-            <nav class="container-fluid text-center uppercase">
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="Home" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="eventsandbookings.html">Events & Bookings</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <div class="container">
+        <div id="menu">
+            <!--https://blog.logrocket.com/create-wavy-background-using-css-svg/-->
+            <svg viewBox="0 0 500 85">
+                <path d="M 0 50 C 150 150 300 0 500 80 L 500 0 L 0 0" fill="#ed583f"></path>
+                <path d="M 0 50 C 150 150 330 -30 500 70 L 500 0 L 0 0" fill="#f3a732" opacity="0.7"></path>
+               <path d="M 0 30 C 215 150 250 0 500 50 L 500 0 L 0 0" fill="#f8b3cc" opacity="0.6"></path>
+              </svg>
             <div class="menu-section" id="seasonal-specials">
                 <h3>Seasonal Specials</h3>
                 <div class="row">
@@ -159,33 +160,35 @@
             </div>
         </div>
 
-        <footer>
-            <div class="footer-content">
-                <div class="contact-info uppercase">
-                    <div class="contact-info-column">
-                        <h4 class="text-spacing">Contact Information:</h4>
-                        <p><a href="mailto:info@petalsandpotions.com">info@petalsandpotions.com</a>| (012) 345-6789</p>
+        <footer class="bg-light text-dark pt-5 pb-4">
+            <div class="container" id="footer-content">
+                <div class="row align-items-center">
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <h4 class="text-spacing uppercase text-center">Contact Information:</h4>
+                        <p><a href="mailto:info@petalsandpotions.com">info@petalsandpotions.com</a> | (012) 345-6789</p>
                     </div>
-                    <div class="contact-info-column">
-                        <h4 class="text-spacing">Address:</h4>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <h4 class="text-spacing uppercase text-center">Address:</h4>
                         <address>
                             <p>26 Lavender Way</p>
                             <p>New York, FC 1234, United States</p>
                         </address>
                     </div>
-                    <div class="contact-info-column" id="opening-hours">
-                        <h4 class="text-spacing">Opening Hours:</h4>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <h4 class="text-spacing uppercase text-center">Opening Hours:</h4>
                         <table>
                             <tr><td>MON - FRI</td><td>8:00 AM - 8:00 PM</td></tr>
                             <tr><td>SAT - SUN</td><td>9:00 AM - 10:00 PM</td></tr>
                             <p><em>Holiday Hours may vary</em></p>
                         </table>
                     </div>
-                    <div class="social-links-column">
-                        <h4 class="uppercase text-spacing">Follow Us!</h4>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <div class="row">
+                        <div class="col-12 text-center mt-4">
+                            <h4 class="text-center uppercase text-spacing">Follow Us!</h4>
+                                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>

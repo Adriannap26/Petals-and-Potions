@@ -174,7 +174,7 @@ nav {
     color: #f8b3cc;
     text-decoration: underline #c7b65d 1px;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2.6em;
+    font-size: 3em;
     margin: 20px 0;
     padding-top: 20px;
   }
@@ -236,7 +236,7 @@ nav {
     color: #f3e7d8;
     text-decoration: underline #c7b65d 1px;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2.6em;
+    font-size: 3em;
     margin: 20px 0;
     padding-top: 20px;
   }
@@ -307,6 +307,10 @@ nav {
 
   /*Menu*/
 
+  #menu {
+    background-color: #c7b65d;
+  }
+
   .menu-section {
     padding-top: 20px;
     margin: 10px;
@@ -316,22 +320,22 @@ nav {
   .menu-section h3 {
     text-align: inherit;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 300;
-    font-size: 2.2em;
     margin-bottom: 10px;
+    color: #f8b3cc;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3em;
   }
 
   .menu-section h4 {
     text-align: inherit;
     letter-spacing: 3px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2em;
-    color: #945f70;
+    color: #ed583f;
   }
 
   .prices {
-    color: #a9979e;
+    color: #f3e7d8;
   }
 
  #dietary-requirements {
@@ -340,12 +344,12 @@ nav {
 }
 
   #dietary-requirements p {
-    color: #efd3fd;
+    color: #f3e7d8;
 
   }
 
   .bg-secondary {
-    background-color: #efd3fd !important;
+    background-color: #f3a732 !important;
   }
 
 
