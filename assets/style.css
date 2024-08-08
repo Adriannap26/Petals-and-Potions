@@ -36,6 +36,7 @@ body, html {
     box-sizing: border-box;
 }
 
+
 /*Header*/
 header {
     margin: 0;
@@ -59,7 +60,7 @@ nav {
   display: block;
   padding: 5px 50px 5px 50px;
   margin: 10px;
-  color: #f3a732;
+  color: #ed583f;
   text-align: center;
   font-size: 1em;
   letter-spacing: 3px;
@@ -84,7 +85,7 @@ nav {
 
 #hero-image {
   position: relative;
-  height: 500px;
+  height: 700px;
   width: 100%;
   padding: 0;
   overflow: hidden;
@@ -134,7 +135,7 @@ nav {
   flex: 1;
   margin: 20px;
   padding: 10px;
-  background-color: rgb(248, 179, 204, 0.7);
+  background-color: rgb(237, 88, 63, 0.7);
   text-align: center;
   background-size: cover;
   border-radius: 15px;
@@ -153,7 +154,7 @@ nav {
 }
 
 .cover-links-container a:hover {
-  color: #ed583f;
+  color:#f8b3cc;
 }
 
 /* Responsive Adjustments */
@@ -177,7 +178,6 @@ nav {
     margin: 20px 0;
     padding-top: 20px;
   }
-
 
   #about-us-container {
     clear: both;
@@ -222,31 +222,33 @@ nav {
   /*Founders*/
 
   #founders {
-    padding: 20px;
+    padding: 10px 60px 10px 60px;
+    background-color: #ed583f;
   }
 
   #founders-container {
-    background-color: #a9979e;
+    background-color: #c7b65d;
     padding: 10px;
-    border-radius: 7px;
+    border-radius: 25px;
   }
 
   #founders h3 {
+    color: #f3e7d8;
+    text-decoration: underline #c7b65d 1px;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2.6em;
-    color: #945f70;
-    font-weight: 300;
-    padding: 20px 0 10px 0;
-    margin: 10px;
+    margin: 20px 0;
+    padding-top: 20px;
   }
 
   #founders h4 {
-    color: #efd3fd;
-    font-size: 1.7em;
-    font-weight: 300;
+    color: #ed583f;
+    font-size: 1.5em;
+    font-weight: 350;
   }
 
   #founders-container p {
-    color: #faf8f8;
+    color: #f3e7d8;
   }
 
   #our-story {
@@ -256,93 +258,51 @@ nav {
   }
 
   #our-story p {
-    color: #271c35;
+    color: #f3e7d8;
     padding: 0;
     margin: 10px;
   }
 
  /*Footer*/
 
- footer {
-  background-color:#945f70;
-  padding: 20px;
-  width: 100%;
-  position: relative;
-  bottom: 0;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.contact-info {
-  display: flex;
-  flex: 1;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.contact-info-column, .social-links-column {
-  flex: 1;
-  padding: 0 20px;
-  text-align: center;
-  min-width: 200px;
- }
-
- .contact-info-column h4,
- .social-links-column h4 {
-  font-weight: 300;
-  font-size: 1em;
-  color: #faf8f8;
-  letter-spacing: 3px;
-  padding-bottom: 10px;
- }
-
- .contact-info-column p, 
- .contact-info-column address, 
- .contact-info-column table, 
- .social-links-column p {
-  font-size: 0.9em;
-  color: #faf8f8;
- }
-
- .contact-info-column a, .social-links-column a {
-  color: #faf8f8;
-  text-decoration: none;
- }
-
- .contact-info-column a:hover,
- .social-links-column a:hover {
-  color: #271c35;
-  text-decoration: underline;
- }
-
- .social-links-column i {
-  padding: 20px;
-  text-align: center;
-  font-size: 1.7em;
- }
-
- .social-links-column a:hover {
-  color: #efd3fd;
- }
-
- #opening-hours p {
-  color: #faf8f8;
+  .bg-light {
+    background-color: #f3e7d8 !important;
   }
 
-  #opening-hours table {
-    color: #faf8f8;
+  footer h4 {
+    font-weight: 350;
+    color: #c7b65d;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+  }
+
+
+  footer a {
+    color: #f8b3cc;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #f3a732;
+    text-decoration: underline;
+  }
+
+  footer p {
     text-align: center;
   }
 
-  #opening-hours p {
-    color: #efd3fd;
+  footer i {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.6em;
+  }
+
+ .social-links-column a:hover {
+  color: #f3a732;
+ }
+
+  footer table {
+    color: #ed583f;
   }
 
   /*Menu*/
