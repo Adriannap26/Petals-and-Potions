@@ -367,10 +367,32 @@ nav {
   }
 
   #images img {
-    width: 90%;
+    width: 85%;
     height: auto;
-    margin: 5px auto;
-    border-radius: 3px;
+    margin: 10px auto;
+    border: 5px solid #c7b65d;
+    border-radius: 40px;
+  }
+
+  /*https://css-pattern.com/3d-diamond/*/
+  .gallery-background {
+    --s: 40px; /* control the size*/
+    --c1: #c7b65d;
+    --c2: #f3e7d8;
+    --c3: #ed583f;
+    --c4: #f8b3cc;
+    
+    --c:,#0000 39%,var(--c1) 40% 93%,#0000 94%;
+    --_s:calc(1.5*var(--s))/calc(4*var(--s)) calc(3*var(--s));
+    background:
+      radial-gradient(calc(1.5*var(--s)) at 37.5%   0%var(--c))
+       calc(-.5*var(--s)) var(--_s),
+      radial-gradient(calc(1.5*var(--s)) at 37.5% 100%var(--c))
+       calc(1.5*var(--s)) var(--_s),
+      radial-gradient(25% calc(50%/3),#0000 96%,var(--c2))
+       0 0/calc(2*var(--s)) calc(3*var(--s)),
+      repeating-conic-gradient(var(--c3) 0 25%,var(--c4) 0 50%)
+       0 0/calc(4*var(--s)) calc(6*var(--s));
   }
 
   @media (min-width: 768px) {
