@@ -412,7 +412,7 @@ nav {
   #events {
     background-color: #ed583f;
     margin-bottom: 10px;
-    padding: 0;
+    padding-bottom: 20px;
   }
 
   #upcoming-events h2 {
@@ -476,134 +476,66 @@ nav {
     margin: 20px 0;
   }
 
-
-  /*
-  #upcoming-events {
-    position: relative;
-    color: #f6f7f5;
-    padding-bottom: 20px;
-  }
-
-  #events-outer {
-    position: relative;
-    padding: 0;
-  }
-
-  #events-hero-image {
-    width: 100%;
-    height: 650px;
-    display: block;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    display: block;
-    filter: brightness(50%);
-  }
-
-  #events-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    background: rgba (0,0,0,0.6);
-  }
-
-  #events-heading {
-    margin-bottom: 30px;
-  }
-
-  #events-heading h3 {
-    font-size: 2.2em;
-    font-weight: 300;
-    color: #faf8f8;
-  }
-
-  #events-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    width: 100%;
-  }
-
-  .event {
-    background-color: rgb(148, 95, 112, 0.6);
-    padding: 20px;
-    max-width: 300px;
-    margin: 15px;
-    }
-
-  .event h4 {
-    font-size: 1.2em;
-    font-weight: 300;
-    margin-bottom: 10px;
-    color: #faf8f8;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-  }
-
-  .event p {
-    font-size: 1em;
-    color: #faf8f8;
-  }
-
   #book-here-button {
-    background-color: rgb(148, 95, 112, 0.6);;
-    color: #faf8f8;
+    background-color: #c7b65d;
+    color: #f3e7d8;
     border: none;
     padding: 10px 20px;
     font-size: 1.2em;
+    border-radius: 20px;
     cursor: pointer;
   }
 
   #book-here-button:hover {
-    color: #efd3fd;
+    color: #ed583f;
   }
 
-  */
+  #form {
+    padding: 20px;
+    background-color: #ed583f;
+  }
 
   #form-container {
-    background-color: #a9979e;
+    background-color: #c7b65d;
     padding: 20px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2);
   }
 
   #booking-heading h3 {
-    font-weight: 300;
-    color: #945f70;
+    color: #f8b3cc;
+    text-decoration: underline #c7b65d 1px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3em;
+    margin: 20px 0;
+    padding-top: 20px;
   }
 
   #booking-heading p {
-    color: #945f70;
+    color: #f3e7d8;
   }
 
   #form-content legend {
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #945f70;
+    color: #ed583f;
     font-size: 1.2em;
   }
 
   #form-content label {
-    color: #faf8f8;
+    color: #f3e7d8;
   }
 
   .btn-secondary {
-    background-color: #945f70;
+    background-color: #ed583f;
+    color: #f3e7d8;
     border: none;
   }
 
   .btn-secondary:hover {
-    background: #945f70;
+    background: #ed583f;
     border: none;
-    color: #efd3fd;
+    color: #c7b65d;
   }
 
   @media (max-width:768px) {
