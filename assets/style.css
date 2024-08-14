@@ -409,6 +409,154 @@ nav {
 
   /*Events & Bookings*/
 
+  .events-hero-image {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .events-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #upcoming-events {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  #upcoming-events-content {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+  }
+
+  #upcoming-events-content h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+  }
+
+  #upcoming-events-content h2 {
+  color: #f8b3cc;
+  text-decoration: underline #c7b65d 1px;
+  font-size: 3em;
+  }
+
+  #upcoming-events-content h3 {
+    font-size: 1.6em;
+    color: #c7b65d;
+    text-transform: uppercase;
+  }
+
+  #upcoming-events-content p {
+  color: #f3e7d8;
+  }
+
+  .line {
+    display: block;
+    height: 2px;
+    background-color: #ed583f;
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  #book-here-button {
+    background-color: #ed583f;
+    color: #f3e7d8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  #book-here-button:hover {
+    background-color: #f3a732;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h2 {
+        font-size: 1.6em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+    
+
+    .events-hero-image {
+      position: relative;
+      width: 100%;
+      height: 800px;
+      overflow: hidden;
+    }
+  }
+
+  @media (max-width: 576px) {
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+  }
+
+  #testimonials .testimonial-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+#testimonials .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#testimonials .carousel-control-prev-icon,
+#testimonials .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+#testimonials .carousel-control-prev-icon:hover,
+#testimonials .carousel-control-next-icon:hover {
+    background-color: #c7b65d;
+}
+
+@media (max-width: 768px) {
+    #testimonials .testimonial-item img {
+        height: 300px;
+    }
+    
+    #testimonials .testimonial-content p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 576px) {
+    #testimonials .testimonial-content p {
+        font-size: 0.9em;
+    }
+    
+    #testimonials .carousel-control-prev-icon,
+    #testimonials .carousel-control-next-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+  /*
   #events {
     background-color: #ed583f;
     margin-bottom: 10px;
@@ -489,6 +637,8 @@ nav {
   #book-here-button:hover {
     color: #ed583f;
   }
+
+  */
 
   #form {
     padding: 20px;
