@@ -132,8 +132,9 @@ nav {
   background-color: #ed583f;
   color: #f3e7d8;
   padding: 10px 20px;
+  margin-top: 50px;
   border: none;
-  font-size: 1.1em;
+  font-size: 1.2em;
   cursor: pointer;
 }
 
@@ -144,16 +145,29 @@ nav {
 
 @media (max-width: 768px) {
   #home-hero h1 {
-      font-size: 2.5em;
+      font-size: 2.4em;
   }
 
   #home-hero p {
-      font-size: 1.2em;
+      font-size: 1.1em;
+  }
+
+  .btn-primary {
+    margin-top: 10px;
+
   }
 
   .row .col-6 {
-      text-align: center;
-      margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #learn-more-button {
+    text-size-adjust: 1em;
+  }
+
+  #explore-our-menu-button {
+    text-size-adjust: 1em;
   }
 }
 /*
