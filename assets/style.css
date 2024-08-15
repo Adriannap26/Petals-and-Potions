@@ -589,6 +589,17 @@ nav {
     color: #f3e7d8;
   }
 
+  /*source: code institute coders coffeehouse cafe code*/
+  #map-wrapper {
+  height: 300px;
+  }
+
+  #map {
+    height: 100%;
+    width: 100%;
+    border: none;
+  }
+
   @media (max-width:768px) {
 
     .petals-and-potions-header {
