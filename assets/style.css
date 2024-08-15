@@ -36,6 +36,19 @@ body, html {
     box-sizing: border-box;
 }
 
+.btn-secondary {
+  background-color: #ed583f;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #f3e7d8;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #f3a732;
+  border: none;
+  color:#f3e7d8;
+}
 
 /*Header*/
 header {
@@ -513,133 +526,33 @@ nav {
     }
   }
 
-  #testimonials .testimonial-item img {
-    height: 500px;
-    object-fit: cover;
-}
-
-#testimonials .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#testimonials .carousel-control-prev-icon,
-#testimonials .carousel-control-next-icon {
-    width: 3rem;
-    height: 3rem;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-}
-
-#testimonials .carousel-control-prev-icon:hover,
-#testimonials .carousel-control-next-icon:hover {
-    background-color: #c7b65d;
-}
-
-@media (max-width: 768px) {
-    #testimonials .testimonial-item img {
-        height: 300px;
-    }
-    
-    #testimonials .testimonial-content p {
-        font-size: 1em;
-    }
-}
-
-@media (max-width: 576px) {
-    #testimonials .testimonial-content p {
-        font-size: 0.9em;
-    }
-    
-    #testimonials .carousel-control-prev-icon,
-    #testimonials .carousel-control-next-icon {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-}
-  /*
-  #events {
-    background-color: #ed583f;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
+  #reviews {
+    width: 100%;
+    margin: 0;
   }
 
-  #upcoming-events h2 {
+  #reviews h2 {
     color: #f8b3cc;
-    text-decoration: underline #c7b65d 1px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 3em;
-    margin: 20px 0;
-    padding-top: 20px;
+    text-decoration: underline #c7b65d 1px;
   }
 
-  #upcoming-events-content {
-    clear: both;
-    width: 100%;
-    padding: 2px 5px 0px 5px;
-    margin: 0 auto;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #upcoming-events-left, #upcoming-events-right {
-    width: 50%;
+  .review {
     padding: 10px;
-    box-sizing: border-box;
   }
 
-  #upcoming-events-left {
-    float: left;
-    clear: both;
-  }
-
-  #upcoming-events-right {
-    float: right;
-    clear: both;
-  }
-
-
-  #upcoming-events-content h3 {
+  .review div {
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #f8b3cc;
-    font-weight: 400;
-    font-size: 1.2em;
-    padding-bottom: 5px;
+    color: #c7b65d;
+    font-size: 1.1em;
   }
 
-  #upcoming-events-content p {
+  .review p {
     text-align: center;
-    color: #f3e7d8;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .line {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #c7b65d;
-    margin: 20px 0;
-  }
-
-  #book-here-button {
-    background-color: #c7b65d;
-    color: #f3e7d8;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-
-  #book-here-button:hover {
     color: #ed583f;
   }
-
-  */
-
+ 
   #form {
     padding: 20px;
     background-color: #ed583f;
@@ -647,7 +560,7 @@ nav {
 
   #form-container {
     background-color: #c7b65d;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2);
   }
@@ -674,18 +587,6 @@ nav {
 
   #form-content label {
     color: #f3e7d8;
-  }
-
-  .btn-secondary {
-    background-color: #ed583f;
-    color: #f3e7d8;
-    border: none;
-  }
-
-  .btn-secondary:hover {
-    background: #ed583f;
-    border: none;
-    color: #c7b65d;
   }
 
   @media (max-width:768px) {
