@@ -125,9 +125,11 @@
     text-decoration: none;
     color: #c7b65d;
     display: none;
+    margin-bottom: 20px;
+    padding: 0;
   }
 
-  #close-sidebar-icon a{
+  #close-sidebar-icon a {
     color: #ed583f;
     font-size: 1.5em;
   }
