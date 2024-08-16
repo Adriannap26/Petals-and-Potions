@@ -100,8 +100,8 @@
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(243, 231, 216, 0.63);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(243, 231, 216, 0.856);
+    box-shadow: -10px 0 10px rgba(212, 165, 165, 0.1);
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -114,12 +114,17 @@
 
   .sidebar a {
     width: 100%;
+    color: #ed583f;
+    font-size: 1.5em;
+    text-align: left;
+    list-style: none;
   }
 
   #sidebar-icon a {
     font-size: 3em;
     text-decoration: none;
-    color: #ed583f;
+    color: #c7b65d;
+    display: none;
   }
 
   #close-sidebar-icon a{
@@ -131,11 +136,21 @@
     .hideOnMobile {
       display: none;
     }
+
+    #sidebar-icon a {
+      font-size: 2.8em;
+      display: flex;
+    }
   }
 
   @media (max-width: 400px) {
     .sidebar {
-      width: 100%;
+      width: 80%;
+    }
+
+    #sidebar-icon a {
+      font-size: 2.5em;
+      display: flex;
     }
   }
 
