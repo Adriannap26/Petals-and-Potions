@@ -167,27 +167,27 @@
   object-fit: cover;
   }
 
-#home-hero-content {
+  #home-hero-content {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 25px;
   width: 100%;
   max-width: 700px;
   height: 500px;
-}
+  }
 
-#home-hero h1 {
+  #home-hero h1 {
   color: #f8b3cc;
   text-decoration: underline #c7b65d 1px;
   font-family: "Bebas Neue", sans-serif;
   font-size: 3em;
-}
+  }
 
-#home-hero p {
+  #home-hero p {
   color: #c7b65d;
   margin-bottom: 30px;
-}
+  }
 
-.btn-primary {
+  .btn-primary {
   background-color: #ed583f;
   color: #f3e7d8;
   padding: 10px 20px;
@@ -195,14 +195,17 @@
   border: none;
   font-size: 1.2em;
   cursor: pointer;
-}
+  }
 
-.btn-primary:hover {
+  .btn-primary:hover {
   background-color: #f3a732;
-}
+  }
 
+  #learn-more-button a, #explore-our-menu-button a {
+    color: #f3e7d8;
+  }
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
   #home-hero h1 {
       font-size: 2.4em;
   }
@@ -228,104 +231,8 @@
   #explore-our-menu-button {
     text-size-adjust: 1em;
   }
-}
-/*
-#hero-outer {
-  height: 500px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-#hero-image {
-  position: relative;
-  height: 700px;
-  width: 100%;
-  padding: 0;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  display: block;
-  filter: brightness(45%);
-  animation: fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
-
-#sub-heading {
-  position: absolute;
-  margin: 0;
-  padding: 2px;
-  width: 70%;
-  top: 20%;
-  left: 15%;
-}
-
-#sub-heading h2 {
-  color: #f3a732;
-  font-size: 1.2em;
-  font-weight: 400;
-}
-
-.cover-links-container-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  width: 70%;
-  top: 70%;
-  left: 15%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.cover-links-container {
-  flex: 1;
-  margin: 20px;
-  padding: 10px;
-  background-color: rgb(237, 88, 63, 0.7);
-  text-align: center;
-  background-size: cover;
-  border-radius: 15px;
-}
-
-.cover-links-container h3 {
-  font-size: 1.2em;
-  font-weight: 350;
-  letter-spacing: 3px;
-  color: #f3e7d8;
-}
-
-.cover-links-container a {
-  color: #f3e7d8;
-  text-decoration: none;
-}
-
-.cover-links-container a:hover {
-  color:#f3e7d8;
-}
-
-
-*/
-
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .cover-links-container-wrapper {
-    flex-direction: column;
-    top: 60%;
   }
 
-  .cover-links-container {
-    margin: 10px auto;
-  }
-}
   /*About Us*/
 
   #about-us h2 {

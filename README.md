@@ -38,24 +38,35 @@ This is where the image with different browsers and screen sizes will go TBC
 
 ## Design
    ### Colour Scheme
-   - The shades of the website are white and a very deep navy blue. 
-   - The accents are a lilac and dark beige.
-   - The main brand colour is muave. 
-   Please note that Colormind was used to aid the colour decision process. 
-
-
-   # link colour scheme photo here
-
+   - The main colours of the website are ceramic white, pastel pink and light khaki.
+   - Orange and red in some of the content and buttons to add a vibrant feel to the website as well as contrast.
+   - I used [Color Mind](http://colormind.io/) to decide which colours would look well together. 
+   ### ![Text](documentation/colour-scheme/final-colour-scheme.PNG)
 
    ### Typography
-   -  The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font.
+   - The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font.
+   - Bebas Neue is used on h1, h2 and h3's with Sans Serif as the fallback font.
 
    ### Imagery
-   -  [Pexels](https://www.pexels.com/) images have been used for the home and gallery pages. 
+   -  [Pexels](https://www.pexels.com/) images have been used for all images throughout the website. 
+
+   -  Home page images:
+
+      1. [Home hero image](#)
+      1. [Founders images](#)
+
+   -  Gallery:
+
+      1. [Gallery image 1](#)
+      1. [Gallery image 2](#)
+
+   -  Events and Bookings:
+
+      1. [Events hero image](#)
 
 ## Wireframes and Structure
 
-I used Balsamiq to create my wireframes. These were a rough idea of what I wanted to achieve, however I did make some changes to the structure of the page whilst coding, please see below for more imformation.
+I used Balsamiq to create my wireframes. These were a rough idea of what I wanted to achieve, however I did make some changes to the structure of the page whilst coding, please see below for more information.
 
 1. As shown in the wireframes, I first wanted to add the contact information below the about us section. However, whilst coding I realised that contact information is very important for the User and that  it would be handy to include it in the footer. This way the user can view the contact information on any page and it will also be a lot easier and quicker to find. 
 
@@ -96,7 +107,7 @@ I used Balsamiq to create my wireframes. These were a rough idea of what I wante
 All pages contain the same header and footer. 
 
 ##### Header:
-- The header includes a very simple and classy logo. Beneath the logo is the horizontal negivation section which is easy to see and operate making it user friendly. 
+- The header includes a very simple logo. Beneath the logo is the horizontal negivation section which is easy to see and operate making it user friendly. The navigation turns into a sidebar on smaller screen sizes.
 
 INSERT HEADER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
 
@@ -114,7 +125,7 @@ INSERT FOOTER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
 
 ### Frameworks and Libraries
 
-- [Bootstrap v.5.3.3]()
+- [Bootstrap v.5.2.3]()
 - [jQuery]()
 - [Balsamiq]()
 - [Am I Responsive Design]()
