@@ -2,111 +2,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 /*General*/
 
-html, body {
+  body, html {
+  background-color: #f3e7d8;
+  font-family: "Montserrat",sans-serif;
   margin: 0;
-}
+  padding: 0;
+  box-sizing: border-box;
+  }
 
-.uppercase {
+  body {
+  min-height: 100vh;
+  }
+
+  .uppercase {
     text-transform: uppercase;
-}
+  }
 
-.text-spacing {
+  .text-spacing {
     letter-spacing: 3px;
-}
+  }
 
-a {
+  a {
     text-decoration: none;
-}
+  }
 
-h1,
-h2,
-h3 {
+  h1,
+  h2,
+  h3 {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-}
+  }
 
-body, html {
-    background-color: #f3e7d8;
-    font-family: "Montserrat",sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.btn-secondary {
+  .btn-secondary {
   background-color: #ed583f;
   padding: 10px;
   font-size: 1.2rem;
   color: #f3e7d8;
   border: none;
-}
+  }
 
-.btn-secondary:hover {
+  .btn-secondary:hover {
   background: #f3a732;
   border: none;
   color:#f3e7d8;
-}
+  }
 
-.line {
+  .line {
   display: block;
   height: 2px;
   background-color: #ed583f;
   width: 60%;
   margin: 20px auto;
-}
+  }
 
-/*Header*/
-header {
+  /*Header*/
+  header {
     margin: 0;
-}
+  }
 
 
-#main-heading h1 {
+  #main-heading h1 {
   color: #f8b3cc;
   font-family: "Bebas Neue", sans-serif;
   font-size: 7em;
   text-decoration: underline #c7b65d 1px;
-}
+  }
 
-/*Nav*/
+  /*Nav*/
 
-nav {
+  nav {
     background-color: #f3e7d8;
-}
+  }
 
-.nav-item a {
-  display: block;
-  padding: 5px 50px 5px 50px;
+  .nav-item a {
   margin: 10px;
   color: #ed583f;
-  text-align: center;
-  font-size: 1em;
+  font-size: 1.1em;
   letter-spacing: 3px;
-}
+  }
 
-.nav-pills .nav-link.active {
+  .nav-pills .nav-link.active {
   background-color: #c7b65d;
-}
+  }
 
-.nav-item a:hover {
+  .nav-item a:hover {
     color: #f8b3cc;
-}
+  }
 
-/*Hero image*/
+  /*https://youtu.be/U8smiWQ8Seg?feature=shared*/
 
-#home-hero {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(243, 231, 216, 0.63);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .sidebar li {
+    width: 100%;
+  }
+
+  .sidebar a {
+    width: 100%;
+  }
+
+  #sidebar-icon a {
+    font-size: 3em;
+    text-decoration: none;
+    color: #ed583f;
+  }
+
+  #close-sidebar-icon a{
+    color: #ed583f;
+    font-size: 1.5em;
+  }
+
+  @media (max-width: 800px){
+    .hideOnMobile {
+      display: none;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+
+  /*Hero image*/
+
+  #home-hero {
   height: 500px;
   position: relative;
   color: #f3e7d8;
-}
+  }
 
-#home-hero img {
+  #home-hero img {
   height: 500px;
   object-fit: cover;
-}
+  }
 
 #home-hero-content {
   background-color: rgba(0, 0, 0, 0.6);
@@ -440,6 +484,8 @@ nav {
  #dietary-requirements {
   padding: 0;
   margin: 10px;
+  background-color: #f8b3cc;
+  margin: 0;
 }
 
   #dietary-requirements p {
@@ -645,7 +691,7 @@ nav {
   }
 
   #booking-heading h3 {
-    color: #f8b3cc;
+    color: #f3e7d8;
     text-decoration: underline #c7b65d 1px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 3em;
