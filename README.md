@@ -68,13 +68,15 @@ This is where the image with different browsers and screen sizes will go TBC
 
 I used Balsamiq to create my wireframes. These were a rough idea of what I wanted to achieve, however I did make some changes to the structure of the page whilst coding, please see below for more information.
 
-1. As shown in the wireframes, I first wanted to add the contact information below the about us section. However, whilst coding I realised that contact information is very important for the User and that  it would be handy to include it in the footer. This way the user can view the contact information on any page and it will also be a lot easier and quicker to find. 
+1. As shown in the wireframes, I first wanted to add the contact information below the about us section. However, whilst coding I realised that contact information is very important for the user and that  it would be handy to include it in the footer. This way the user can view the contact information on any page and it will also be a lot easier and quicker to find. 
 
 2. I amended the structure of the menu and changed the name of 'bevergaes' to 'drinks'. I reliased that having the menu sections horizontally aligned wouldn't give me much space and it would have probably looked a little too constricted. 
 
-3. The hero image in the wireframe has two buttons. I also decided to add a testimonial to the top of the hero image as it looked like the space looked too empty. 
+3. I rearranged the layout of the gallery as I thought it looks neater when the photos are in two columns. 
 
-4.  I rearranged the layout of the gallery as I thought it looks neater when the photos are in two columns. 
+4. After noticing that the home page looked too empty I decided to add the founders and our story section. 
+
+5. While coding I decided to add a testimonials section to the events and bookings page to seperate the upcoming events section and the enquiries form. I think that this makes the page look more complete. I also added a map at the bottom of the enquiry form for good UI experience.
 
 ### Wireframes
 
@@ -104,17 +106,28 @@ I used Balsamiq to create my wireframes. These were a rough idea of what I wante
 
 ## Features
 
-All pages contain the same header and footer. 
+-   #### Responsive on all devices - [view]
 
-##### Header:
+### Interactive elements
+
+-  Navagation has a link to the home, menu, gallery and events & bookings pages.
+### ![Text](documentation/website-screenshots/nav.PNG)
+
+-  The hero image on the home page includes two buttons: Learn more about us and explore our menu.  The learn more about us buttons takes the user to the about us section on the home page. The explore our menu button takes the user to the menu page.
+### ![Text](documentation/website-screenshots/home-hero-buttons.PNG)
+
+#### All pages contain the same header and footer. 
+
+### Header:
 - The header includes a very simple logo. Beneath the logo is the horizontal negivation section which is easy to see and operate making it user friendly. The navigation turns into a sidebar on smaller screen sizes.
 
-INSERT HEADER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
+## ![Text](documentation/website-screenshots/header.PNG)
+## ![Text](documentation/website-screenshots/header-sidebar.PNG)
 
-##### Footer:
+### Footer:
 - The footer includes all contact information including telephone number, email address, venue address as well as social media links. 
 
-INSERT FOOTER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
+## ![Text](documentation/website-screenshots/footer.PNG)
 
 ## Technologies
 
@@ -125,14 +138,22 @@ INSERT FOOTER IMAGE HERE AND IMAGE OF HOW IT FOLDS WHEN ON SMALLER DEVICE
 
 ### Frameworks and Libraries
 
-- [Bootstrap v.5.2.3]()
-- [jQuery]()
-- [Balsamiq]()
-- [Am I Responsive Design]()
-- [Google Fonts]()
-- [Font Awesome]()
-- [Github]()
-- [Git]()
+1. [Bootstrap v.5.2.3](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+- Bootstrap was used to make sections of the website responsive by using the bootstrap grid system. Bootstrap was also used for styling some of the sections of the website such as the nav.  
+2. [jQuery](https://jquery.com/)
+- jQuery came with Bootstrap for responsive purposes, jQuery was also used in the sidebar. Please note that the jQuery code for the sidebar was taken from youtube. 
+3. [Balsamiq](https://balsamiq.com/)
+- Balsamiq was used to create the wireframes for the different device sizes.
+4. [Am I Responsive Design](http://ami.responsivedesign.is/)
+- Am I Responsive Design was used for the responsive image in the Readme.
+5. [Google Fonts](https://fonts.google.com/)
+- The following fonts were imported from google fonts: Montserrat and Bebas Neue.
+6. [Font Awesome](https://fontawesome.com/icons)
+- Font Awesome was used to import icons used throughout the website. 
+7. [Github](https://github.com/)
+- Github was used to store the project. 
+8. [Git](https://git-scm.com/)
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 ## Testing
 
