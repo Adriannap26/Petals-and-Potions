@@ -549,34 +549,7 @@
     margin: 10px;
   }
 
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    h2 {
-        font-size: 1.6em;
-    }
-    
-    h3 {
-        font-size: 1.2em;
-    }
-    
-
-    .events-hero-image {
-      position: relative;
-      width: 100%;
-      height: 800px;
-      overflow: hidden;
-    }
-  }
-
-  @media (max-width: 576px) {
-    h2 {
-        font-size: 1.2em;
-    }
-    
-    h3 {
-        font-size: 1em;
-    }
-  }
+  
 
   #reviews {
     width: 100%;
@@ -668,7 +641,39 @@
 
   }
 
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h2 {
+        font-size: 1.6em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+    
 
+    .events-hero-image {
+      position: relative;
+      width: 100%;
+      height: 800px;
+      overflow: hidden;
+    }
+  }
+
+  @media (max-width: 576px) {
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+
+    .button a {
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  }
 
 
 
