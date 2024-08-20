@@ -16,6 +16,18 @@
   min-height: 100vh;
   }
 
+  .button a {
+    color: #f3e7d8;
+    background-color: #ed583f;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1.2em;
+  }
+
+  .button a:hover {
+    background-color: #f3a732;
+  }
+
   .uppercase {
     text-transform: uppercase;
   }
@@ -533,17 +545,8 @@
   color: #f3e7d8;
   }
 
-  #book-here-button {
-    background-color: #ed583f;
-    color: #f3e7d8;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-  }
-
-  #book-here-button:hover {
-    background-color: #f3a732;
+  #book-here-events {
+    margin: 10px;
   }
 
   /* Responsive adjustments */
