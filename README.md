@@ -108,6 +108,8 @@ I used Balsamiq to create my wireframes. These were a rough idea of what I wante
 
 -   #### Responsive on all devices - [view]
 
+MENTION THAT THE BUTTONS GET SMALLER ON SMALL SCREEN SIZES TO MAKE THE CONTENT MORE BLANCED.
+
 ### Interactive elements
 
 -  Navagation has a link to the home, menu, gallery and events & bookings pages.

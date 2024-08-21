@@ -1,6 +1,5 @@
 /*google fonts code*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*General*/
 
@@ -41,8 +40,13 @@
   }
 
   h1,
-  h2,
-  h3 {
+  h2 {
+    margin: 0;
+    font-family: "Bodoni Moda", sans-serif;
+  }
+
+  h3, 
+  h4 {
     margin: 0;
     font-family: "Montserrat", sans-serif;
   }
@@ -74,11 +78,9 @@
     margin: 0;
   }
 
-
   #main-heading h1 {
   color: #f8b3cc;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 7em;
+  font-size: 4.5em;
   text-decoration: underline #c7b65d 1px;
   }
 
@@ -102,6 +104,9 @@
   .nav-item a:hover {
     color: #f8b3cc;
   }
+
+  
+  /*Sidebar*/
 
   /*https://youtu.be/U8smiWQ8Seg?feature=shared*/
 
@@ -146,105 +151,42 @@
     font-size: 1.5em;
   }
 
-  @media (max-width: 800px){
-    .hideOnMobile {
-      display: none;
-    }
-
-    #sidebar-icon a {
-      font-size: 2.8em;
-      display: flex;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .sidebar {
-      width: 80%;
-    }
-
-    #sidebar-icon a {
-      font-size: 2.5em;
-      display: flex;
-    }
-  }
-
   /*Hero image*/
 
+  /*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
+
   #home-hero {
-  height: 500px;
-  position: relative;
-  color: #f3e7d8;
+    height: 500px;
+    position: relative;
+    color: #f3e7d8;
   }
 
   #home-hero img {
-  height: 500px;
-  object-fit: cover;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
   }
 
   #home-hero-content {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 25px;
-  width: 100%;
-  max-width: 700px;
-  height: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
   }
 
   #home-hero h1 {
-  color: #f8b3cc;
-  text-decoration: underline #c7b65d 1px;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 3em;
+    color: #f8b3cc;
+    text-decoration: underline #c7b65d 1px;
+    font-size: 1.8em;
   }
 
   #home-hero p {
-  color: #c7b65d;
-  margin-bottom: 30px;
-  }
-
-  .btn-primary {
-  background-color: #ed583f;
-  color: #f3e7d8;
-  padding: 10px 20px;
-  margin-top: 50px;
-  border: none;
-  font-size: 1.2em;
-  cursor: pointer;
-  }
-
-  .btn-primary:hover {
-  background-color: #f3a732;
+    color: #c7b65d;
   }
 
   #learn-more-button a, #explore-our-menu-button a {
     color: #f3e7d8;
-  }
-
-  @media (max-width: 768px) {
-  #home-hero h1 {
-      font-size: 2.4em;
-  }
-
-  #home-hero p {
-      font-size: 1.1em;
-  }
-
-  .btn-primary {
-    margin-top: 10px;
-
-  }
-
-  .row .col-6 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  #learn-more-button {
-    text-size-adjust: 1em;
-  }
-
-  #explore-our-menu-button {
-    text-size-adjust: 1em;
-  }
   }
 
   /*About Us*/
@@ -673,7 +615,35 @@
       padding: 10px;
       font-size: 0.9em;
     }
+
+    #home-hero h1 {
+      color: #f8b3cc;
+      text-decoration: underline #c7b65d 1px;
+      font-size: 1.3em;
+      }
   }
+
+  @media (max-width: 800px){
+    .hideOnMobile {
+      display: none;
+    }
+
+    #sidebar-icon a {
+      font-size: 2.8em;
+      display: flex;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .sidebar {
+      width: 80%;
+    }
+    #sidebar-icon a {
+      font-size: 2.5em;
+      display: flex;
+    }
+  }
+
 
 
 
