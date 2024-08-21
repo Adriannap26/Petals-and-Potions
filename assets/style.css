@@ -1,7 +1,7 @@
-/*google fonts code*/
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  /*google fonts code*/
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*General*/
+  /*General*/
 
   body, html {
   background-color: #f3e7d8;
@@ -42,13 +42,15 @@
   h1,
   h2 {
     margin: 0;
-    font-family: "Bodoni Moda", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
   }
 
-  h3, 
-  h4 {
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
+  h1 { 
+    font-size: 6em;
+  }
+
+  h2 {
+    font-size: 2.8em;
   }
 
   .btn-secondary {
@@ -80,7 +82,7 @@
 
   #main-heading h1 {
   color: #f8b3cc;
-  font-size: 4.5em;
+  font-size: 6em;
   text-decoration: underline #c7b65d 1px;
   }
 
@@ -175,10 +177,9 @@
     height: 500px;
   }
 
-  #home-hero h1 {
+  #home-hero h2 {
     color: #f8b3cc;
     text-decoration: underline #c7b65d 1px;
-    font-size: 1.8em;
   }
 
   #home-hero p {
@@ -194,8 +195,6 @@
   #about-us h2 {
     color: #f8b3cc;
     text-decoration: underline #c7b65d 1px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3em;
   }
 
   #about-us-container {
@@ -225,10 +224,10 @@
   #about-us-container h3 {
     text-align: center;
     letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 1.2em;
     color: #c7b65d;
-    font-family: "Montserrat", sans-serif;
   }
 
   #about-us-container p {
@@ -237,7 +236,6 @@
     padding: 10px;
     margin: 10px;
   }
-
 
   /*Founders*/
 
@@ -252,19 +250,16 @@
     border-radius: 25px;
   }
 
-  #founders h3 {
+  #founders h2 {
     color: #f3e7d8;
     text-decoration: underline #c7b65d 1px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3em;
     margin: 20px 0;
     padding-top: 20px;
   }
 
-  #founders h4 {
+  #founders h3 {
     color: #ed583f;
-    font-size: 1.5em;
-    font-weight: 350;
+    font-family: "Montserrat", sans-serif;
   }
 
   #founders-container p {
@@ -275,6 +270,10 @@
     text-align: center;
     padding: 0;
     margin-bottom: 40px;
+  }
+
+  #our-story h2 {
+    color: #f3e7d8;
   }
 
   #our-story p {
@@ -290,12 +289,10 @@
   }
 
   footer h4 {
-    font-weight: 350;
     color: #c7b65d;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
-    padding-bottom: 10px;
   }
-
 
   footer a {
     color: #f8b3cc;
@@ -320,10 +317,6 @@
  .social-links-column a:hover {
   color: #f3a732;
  }
-
-  footer table {
-    color: #ed583f;
-  }
 
   /*Menu*/
 
