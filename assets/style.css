@@ -365,7 +365,7 @@
   .bg-secondary {
     background-color: #f3a732 !important;
   }
-  
+
   /*Gallery*/
 
   /*https://www.sitepoint.com/css-grid-repeat-function/*/
@@ -408,18 +408,6 @@
        0 0/calc(4*var(--s)) calc(6*var(--s));
   }
 
-  @media (min-width: 768px) {
-    #images {
-      grid-template-columns: repeat (2,1fr);
-    }
-  }
-
-  @media (min-width: 1024px) {
-    #images {
-      grid-template-columns: repeat (3, 1fr);
-    }
-  }
-
   /*Events & Bookings*/
 
   .events-hero-image {
@@ -433,6 +421,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-repeat: no-repeat;
   }
 
   #upcoming-events {
@@ -455,21 +444,15 @@
     max-width: 700px;
   }
 
-  #upcoming-events-content h2, h3 {
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 3px;
+  #upcoming-events-content h3 {
+    font-size: 1.2em;
+    color: #c7b65d;
+    text-transform: uppercase;
   }
 
   #upcoming-events-content h2 {
   color: #f8b3cc;
   text-decoration: underline #c7b65d 1px;
-  font-size: 3em;
-  }
-
-  #upcoming-events-content h3 {
-    font-size: 1.6em;
-    color: #c7b65d;
-    text-transform: uppercase;
   }
 
   #upcoming-events-content p {
@@ -480,7 +463,7 @@
     margin: 10px;
   }
 
-  
+  /*Reviews*/
 
   #reviews {
     width: 100%;
@@ -489,8 +472,6 @@
 
   #reviews h2 {
     color: #f8b3cc;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3em;
     text-decoration: underline #c7b65d 1px;
   }
 
@@ -509,6 +490,8 @@
     color: #ed583f;
   }
  
+  /*Enquiry Form*/
+
   #form {
     padding: 20px;
     background-color: #ed583f;
@@ -521,13 +504,9 @@
     box-shadow: rgba(0, 0, 0, 0.2);
   }
 
-  #booking-heading h3 {
+  #booking-heading h2 {
     color: #f3e7d8;
     text-decoration: underline #c7b65d 1px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3em;
-    margin: 20px 0;
-    padding-top: 20px;
   }
 
   #booking-heading p {
@@ -539,12 +518,15 @@
     letter-spacing: 3px;
     color: #ed583f;
     font-size: 1.2em;
+    font-weight: 500;
   }
 
   #form-content label {
     color: #f3e7d8;
   }
 
+  /*Map*/
+  
   /*source: code institute coders coffeehouse cafe code*/
   #map-wrapper {
   height: 300px;
@@ -630,6 +612,18 @@
     #sidebar-icon a {
       font-size: 2.5em;
       display: flex;
+    }
+  }
+
+  @media (min-width: 768px) {
+    #images {
+      grid-template-columns: repeat (2,1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #images {
+      grid-template-columns: repeat (3, 1fr);
     }
   }
 
