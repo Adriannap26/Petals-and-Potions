@@ -335,8 +335,6 @@
     text-transform: uppercase;
     color: #f8b3cc;
     text-decoration: underline #c7b65d 1px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3em;
   }
 
   .menu-section h3 {
@@ -352,24 +350,22 @@
     color: #f3e7d8;
   }
 
- #dietary-requirements {
-  padding: 0;
-  margin: 10px;
-  background-color: #f8b3cc;
-  margin: 0;
-}
+  #dietary-requirements {
+   padding: 0;
+    margin: 10px;
+    background-color: #f8b3cc;
+    margin: 0;
+  }
 
   #dietary-requirements p {
     color: #ed583f;
     text-align: center;
-
   }
 
   .bg-secondary {
     background-color: #f3a732 !important;
   }
-
-
+  
   /*Gallery*/
 
   /*https://www.sitepoint.com/css-grid-repeat-function/*/
