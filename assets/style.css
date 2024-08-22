@@ -358,16 +358,8 @@
     color: #f3e7d8;
   }
 
-  #dietary-requirements {
-   padding: 0;
-    margin: 10px;
-    background-color: #f8b3cc;
-    margin: 0;
-  }
-
   #dietary-requirements p {
     color: #ed583f;
-    text-align: center;
   }
 
   .bg-secondary {
