@@ -5,22 +5,27 @@
 Welcome to the Petals and Potions Cafe website read.me, this website was created for milestone project 1 (Web Development Diploma with Code Institute) and it showcases a beautifully designed, floral-inspired fictional cafe. The website features four main pages:
 
 1. Home Page: ADD LINK
-- Includes a hero image with buttons to navigate to the menu and learn more about us sections, followed by an about us section and a footer with contact details and social media links.
+- Includes a hero image with buttons to navigate to the menu and learn more about us sections, followed by an about us section, founders section and a footer with contact information, opening hours and social media links.
 
 2. Menu Page: ADD LINK
-- Displays the cafe's diverse menu, organized into sections for drinks, food, and desserts, complete with detailed descriptions and prices.
+- Displays the cafe's diverse menu, organised into sections for drinks, food, and desserts, complete with detailed descriptions and prices.
 
 3. Gallery Page: ADD LINK
 - Features a collection of images showcasing the cafe's delicious food, cakes, drinks, and the charming cafe ambiance.
 
 4. Events & Booking Page: ADD LINK
-- Lists upcoming and recurring events with details and includes a booking enquiry form for customers to easily make reservations, also showcasing some workshop event images.
+- Lists detailed upcoming events on a large hero image, including a book here button. This page also includes a testimonials section and a booking enquiry form for customers to easily make reservations, followed by a map to help organise their visit.
 
 This is where the image with different browsers and screen sizes will go TBC
 
 ## User Experience (UX)
 
    ### Project Goal
+   - The website is the online reflection of the floral inspired Cafe, embodying the dedication to community by showing the upcoming events section, creativity by providing a vibrant theme and a unique floral-isnpired menu, and supporting local farmers by explaining how the Cafe suports local farmers in the about us section. 
+
+   - The website is a platform where visitors can explore the menu, learn about upcoming events, and easily make reservations. Beyond that, it’s a space to share the story of how the cafe was created, highlight the local flower farmers, and invite the community to join in, in celebrating the beauty of flowers in every aspect of the café.
+
+   - Through this website, the aim is to create an online experience that mirrors the warmth and charm of the physical space, making it easier for the customers to engage with the cafe, stay informed about what’s happening at the café, and feel a part of the thriving community.
    
    #### User stories
    
