@@ -75,6 +75,14 @@
   margin: 20px auto;
   }
 
+  .back-to-top-button a {
+    color: #c7b65d;
+  }
+
+  .back-to-top-button a:hover {
+    color: #f3a732;
+  }
+
   /*Header*/
   header {
     margin: 0;
