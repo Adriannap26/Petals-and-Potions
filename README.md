@@ -119,6 +119,27 @@ I used Balsamiq to create my wireframes. These were a rough idea of what I wante
 
 MENTION THAT THE BUTTONS GET SMALLER ON SMALL SCREEN SIZES TO MAKE THE CONTENT MORE BLANCED.
 
+## Header and footer
+
+All pages contain the same header and footer. 
+
+### Header:
+- The header includes a very simple logo. Beneath the logo is the horizontal negivation section which is easy to see and operate making it user friendly. The navigation turns into a sidebar on smaller screen sizes to make the page more user friendly and easier to navigate.
+
+## ![Text](documentation/website-screenshots/header.PNG)
+## ![Text](documentation/website-screenshots/header-sidebar.PNG)
+
+### Footer:
+- The footer includes all contact information including telephone number, email address, venue address as well as social media links. The footer folds on smaller screen sizes to make it more visable and to show responsive design.
+
+## ![Text](documentation/website-screenshots/footer.PNG)
+## ![Text](documentation/website-screenshots/footer-small-devices.PNG)
+
+### Back to top button
+- All pages include a back to top button at the bottom of the page.
+
+## ![Text](documentation/website-screenshots/back-to-top-button.PNG)
+
 ### Interactive elements
 
 -  Navagation has a link to the home, menu, gallery and events & bookings pages.
@@ -127,23 +148,64 @@ MENTION THAT THE BUTTONS GET SMALLER ON SMALL SCREEN SIZES TO MAKE THE CONTENT M
 -  The hero image on the home page includes two buttons: Learn more about us and explore our menu.  The learn more about us buttons takes the user to the about us section on the home page. The explore our menu button takes the user to the menu page.
 ### ![Text](documentation/website-screenshots/home-hero-buttons.PNG)
 
-#### All pages contain the same header and footer. 
+-  All pages include the back to top arrows allowing the users to easily go to the top of each page.
+### ![Text](documentation/website-screenshots/back-to-top-button.PNG)
 
-### Header:
-- The header includes a very simple logo. Beneath the logo is the horizontal negivation section which is easy to see and operate making it user friendly. The navigation turns into a sidebar on smaller screen sizes.
+- The footer has social media links which take the user to the specific social media page. The email is also interactive and automatically brings up an email window when the user clicks on the email address. 
+### ![Text](documentation/website-screenshots/footer.PNG)
 
-## ![Text](documentation/website-screenshots/header.PNG)
-## ![Text](documentation/website-screenshots/header-sidebar.PNG)
+- At the bottom of the menu, we can find a book now button which takes the user to the events and bookings page. I think that this is a good place to add a book now button because if the user likes the menu then they will want to book a table. Adding the button makes the page more interactive and user friendly.  
+### ![Text](documentation/website-screenshots/menu-book-now-button.PNG)
 
-### Footer:
-- The footer includes all contact information including telephone number, email address, venue address as well as social media links. 
+- The events section includes a book here button. This button takes the user to the bookings form. 
+### ![Text](documentation/website-screenshots/book-here-eandb.PNG)
 
-## ![Text](documentation/website-screenshots/footer.PNG)
+- The bookings form has a send enquiry button. The form itself is also interactive as you can select the amount of people you are bookings for on the 'number of people' field, you can also select a date from the calendar on the 'booking date' field. I think that this makes the form more user friendly and it also minimises a probability of a typo. 
+### ![Text](documentation/website-screenshots/bookings-form-buttons.PNG)
 
-### Back to top button
-- All pages include a back to top button at the bottom of the page.
+- There is a map at the bottom of the enquiry form to allow the user to plan their journey and see the exact location fo the cafe. Please note that the address of the cafe is not real as this is a fictional cafe. 
+### ![Text](documentation/website-screenshots/bookings-map.PNG)
 
-## ![Text](documentation/website-screenshots/back-to-top-button.PNG)
+
+### Other elements
+
+#### Home Page
+
+- The about us section on the home page focuses on what makes petals and potions unique. This is a section where the potential customer can really get a feel of the cafe. 
+### ![Text](documentation/website-screenshots/home-about-us.PNG)
+
+- Below the about us section we can find the supporting local farmers section. I wanted to include this as I wanted to emphasise that the cafe is commited to supporting it's community. 
+### ![Text](documentation/website-screenshots/home-local-support.PNG)
+
+- Lastly, the founders and our story section really helps the customer connect to the cafe and it build trust. This section also completes the page and makes the content look more vibrant. 
+### ![Text](documentation/website-screenshots/home-founders.PNG)
+
+#### Menu Page
+
+- The menu page features four different sections: Seasonal Specials, Drinks, Food and Sweet Treats. All vegan and gluten-free items have an icon next to them. The menu also has a 'New' badge next to all new items so that returning customers can easily see any changes to the menu. The svg at the top of the page is there for aesthetic purposes only. 
+### ![Text](documentation/website-screenshots/menu.PNG)
+
+- At the bottom of the page we can find the dietary requirement explanation.
+### ![Text](documentation/website-screenshots/menu-dietary-req.PNG)
+
+- The menu is responsive on smaller screens and it turns into one column rather than two on small devices like mobile phones. 
+### ![Text](documentation/website-screenshots/menu-responsive.PNG)
+
+#### Gallery Page
+
+- The gallery shows eight different photos of the cafe and the offerings. The photo's are shown two columns.
+### ![Text](documentation/website-screenshots/gallery.PNG)
+
+#### Events and Bookings Page
+
+- The events and booking page features an upcoming events section showing all upcoming events. I have stuck to two events as I did not want to overload the page. 
+### ![Text](documentation/website-screenshots/events.PNG)
+
+- The customer reflections includes three testimonials. This sections helps seperate the upcoming events and form content and adds a nice contrast. It is also useful for the customer to see what others think of the cafe before booking so I thought it would be a good idea to place this section above the bookings form. 
+### ![Text](documentation/website-screenshots/reflections.PNG)
+
+- Finally, the bookings form allows the user to send an enquiry. I have seperated the form into two different sections: Your details and booking information. This gives thr user clarity and makes the process of completing the form more structured. The 'your details' section is marked as required so the user cannot send the enquiry without completing this information.
+### ![Text](documentation/website-screenshots/reflections.PNG)
 
 ## Technologies
 
