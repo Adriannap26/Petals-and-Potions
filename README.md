@@ -321,8 +321,6 @@ All pages contain the same header and footer.
 
 ## Deployment
 
-
-
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
