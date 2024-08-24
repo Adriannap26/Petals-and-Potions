@@ -290,17 +290,45 @@ All pages contain the same header and footer.
 
 - [Google DevTools](https://developer.chrome.com/docs/devtools/) and Lighthouse have been used for testing and amending the project.
 
-#### Bug Fix 1
-- #### Before:
-#### ![Text](#)
-- #### After:
-#### ![Text](#)
+### Validator testing
 
-#### Bug Fix 2
+#### Final results: 
+
+- Laptop Home:
+### ![Text](#)
+
+- Laptop Menu:
+### ![Text](#)
+
+- Laptop Gallery:
+### ![Text](#)
+
+- Laptop Events and Bookings:
+### ![Text](#)
+
+- Mobile Home:
+### ![Text](#)
+
+- Mobile Menu:
+### ![Text](#)
+
+- Mobile Gallery:
+### ![Text](#)
+
+- Mobile Events and Bookings:
+### ![Text](#)
+
+### Bug Fixes 
+
+#### The value of the aria-current attribute was incorrect on all pages. After amending the value from 'Home' to 'page' the error was fixed. This was very important as it allows all users with all different needs to access the website. 
+#### ![Text](documentation/testing/aria-current-error.PNG)
+
+#### The opening hours table had a paragraph element in it which was the incorrect was of structuring this section. I moved the paragraph beneath the table to fix this error. This also made the content look better. 
+#### ![Text](documentation/testing/table-paragraph-footer.PNG)
 - #### Before:
-#### ![Text](#)
+#### ![Text](documentation/testing/opening-hours-before.PNG)
 - #### After:
-#### ![Text](#)
+#### ![Text](documentation/testing/opening-hours-after.PNG)
 
 #### Bug Fix 3
 - #### Before:
