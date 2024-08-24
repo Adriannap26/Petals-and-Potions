@@ -379,6 +379,21 @@
 
   /*Gallery*/
 
+  #introduction {
+    margin: 0px 15px 5px 15px;
+    padding: 10px;
+    background-color: rgb(199, 182, 93, 0.9);
+    border-radius: 25px;
+  }
+
+  #introduction h2, p {
+    color:#f3e7d8
+  }
+
+  #introduction p {
+    font-size: 1.1em;
+  }
+
   /*https://www.sitepoint.com/css-grid-repeat-function/*/
 
   #images {
