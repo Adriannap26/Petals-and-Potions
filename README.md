@@ -330,11 +330,10 @@ All pages contain the same header and footer.
 - #### After:
 #### ![Text](documentation/testing/opening-hours-after.PNG)
 
-#### Bug Fix 3
-- #### Before:
-#### ![Text](#)
-- #### After:
-#### ![Text](#)
+#### My gallery code was not structured well, therefore I added a heading and a short paragraph to make the structure of the section more semantic as well as the content more engaging. 
+#### ![Text](documentation/testing/gallery-heading-error.PNG)
+#### ![Text](documentation/testing/gallery-after.PNG)
+
 
 #### Bug Fix 4
 - #### Before:
