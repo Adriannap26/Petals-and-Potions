@@ -294,29 +294,17 @@ All pages contain the same header and footer.
 
 #### Final results: 
 
-- Laptop Home:
-### ![Text](#)
+#### Home:
+### ![Text](documentation/testing/home-validation-passed.PNG)
 
-- Laptop Menu:
-### ![Text](#)
+#### Menu:
+### ![Text](documentation/testing/menu-validation-passed.PNG)
 
-- Laptop Gallery:
-### ![Text](#)
+#### Gallery:
+### ![Text](documentation/testing/gallery-validation-passed.PNG)
 
-- Laptop Events and Bookings:
-### ![Text](#)
-
-- Mobile Home:
-### ![Text](#)
-
-- Mobile Menu:
-### ![Text](#)
-
-- Mobile Gallery:
-### ![Text](#)
-
-- Mobile Events and Bookings:
-### ![Text](#)
+#### Events and Bookings:
+### ![Text](documentation/testing/eventsandbookings-validation-passed.PNG)
 
 ### Bug Fixes 
 
