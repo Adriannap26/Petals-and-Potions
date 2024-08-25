@@ -290,6 +290,29 @@ All pages contain the same header and footer.
 
 - [Google DevTools](https://developer.chrome.com/docs/devtools/) and Lighthouse have been used for testing and amending the project.
 
+#### Page Performance (Desktop)
+
+- Home 
+- Menu 
+- Gallery
+- Events and bookings
+
+#### Page Performance (Mobile)
+
+##### Home 
+- Before:
+### ![Text](documentation/testing/lighthouse/mobile-home-performance-before.PNG)
+
+- After: 
+
+##### Menu 
+- Before:
+### ![Text](documentation/testing/lighthouse/mobile-menu-performance-before.PNG)
+
+- After: 
+- Gallery
+- Events and bookings
+
 ### Validator testing
 
 #### Final results: 
