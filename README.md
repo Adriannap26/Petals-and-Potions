@@ -334,12 +334,12 @@ All pages contain the same header and footer.
 #### ![Text](documentation/testing/gallery-heading-error.PNG)
 #### ![Text](documentation/testing/gallery-after.PNG)
 
+#### The structure of my drop down in the form had an error. I removed the value from the first option and added the disabled attribute so that the user cannot select this option as it is only there as a placeholder. I also inserted a 'value' attribute for the other options which I forgto to do. While fixing this bug I also decided that it would be beneficial to add a booking time to the form.
+#### ![Text](documentation/testing/form-error.PNG)
+#### ![Text](documentation/testing/booking-error-fix.PNG)
 
-#### Bug Fix 4
-- #### Before:
-#### ![Text](#)
-- #### After:
-#### ![Text](#)
+#### My map code was not structured well so I added a div to the section which fixed the error. 
+#### ![Text](documentation/testing/map-error.PNG)
 
 ### Known Bugs
 

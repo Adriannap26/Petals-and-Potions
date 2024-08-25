@@ -148,16 +148,20 @@
                             <div class="mb-3">
                                 <label for="bookingtype">Booking Type:</label>
                                 <select name="bookingtype" id="bookingtype" class="form-control" aria-label="Booking Type" required>
-                                    <option selected>Select your booking type</option>
-                                    <option>Table booking</option>
-                                    <option>Event: Floral Arrangement Workshop</option>
-                                    <option>Event: Autumn Harvest Dinner</option>
-                                    <option>Other</option>
+                                    <option value="" disabled selected>Select your booking type:</option>
+                                    <option value="tablebooking">Table booking</option>
+                                    <option value="event1">Event: Floral Arrangement Workshop</option>
+                                    <option value="event2">Event: Autumn Harvest Dinner</option>
+                                    <option value="other">Other</option>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label for="bookingdate">Booking Date:</label>
                                 <input type="date" id="bookingdate" name="bookingdate" class="form-control" aria-label="Date of booking">
+                            </div>
+                            <div class="mb-3">
+                                <label for="bookingtime">Booking Time:</label>
+                                <input type="time" id="bookingtime" name="bookingtime" class="form-control" aria-label="Time of booking">
                             </div>
                             <div class="mb-3">
                                 <label for="people">Number of people:</label>
@@ -182,8 +186,10 @@
 
         <!-- map -->
 
-        <section id="map-wrapper">
-            <iframe id ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.16459542423!2d-74.05163297694082!3d40.75916223056774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1723715064624!5m2!1sen!2suk" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section>
+            <div id="map-wrapper">
+                <iframe id ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.16459542423!2d-74.05163297694082!3d40.75916223056774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1723715064624!5m2!1sen!2suk" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
 
         <!--back to top button -->
