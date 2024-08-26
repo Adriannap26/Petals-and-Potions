@@ -292,14 +292,33 @@ All pages contain the same header and footer.
 
 #### Page Performance (Desktop)
 
-- Home 
-- Menu 
-- Gallery
-- Events and bookings
+##### Home
+- Before:
+### ![Text](documentation/testing/lighthouse/desktop-home-performance-before.PNG)
+
+- After: 
+
+##### Menu 
+- Before:
+### ![Text](documentation/testing/lighthouse/desktop-menu-performance-before.PNG)
+
+- After: 
+
+##### Gallery
+- Before:
+### ![Text](documentation/testing/lighthouse/desktop-gallery-performance-before.PNG)
+
+- After: 
+
+##### Events and bookings
+- Before:
+### ![Text](documentation/testing/lighthouse/desktop-eventsandbookings-performance-before.PNG)
+
+- After: 
 
 #### Page Performance (Mobile)
 
-##### Home 
+##### Home
 - Before:
 ### ![Text](documentation/testing/lighthouse/mobile-home-performance-before.PNG)
 
@@ -310,8 +329,18 @@ All pages contain the same header and footer.
 ### ![Text](documentation/testing/lighthouse/mobile-menu-performance-before.PNG)
 
 - After: 
-- Gallery
-- Events and bookings
+
+##### Gallery
+- Before:
+### ![Text](documentation/testing/lighthouse/mobile-gallery-performance-before.PNG)
+
+- After: 
+
+##### Events and bookings
+- Before:
+### ![Text](documentation/testing/lighthouse/mobile-eventsandbookings-performance-before.PNG)
+
+- After: 
 
 ### Validator testing
 
