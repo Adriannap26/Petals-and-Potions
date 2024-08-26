@@ -4,7 +4,7 @@
   /*General*/
 
   body, html {
-  background-color: #f3e7d8;
+  background-color: #f7f1e2;
   font-family: "Montserrat",sans-serif;
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@
   }
 
   .button a {
-    color: #f3e7d8;
+    color: #f7f1e2;
     background-color: #ed583f;
     padding: 15px;
     border-radius: 25px;
@@ -57,14 +57,14 @@
   background-color: #ed583f;
   padding: 10px;
   font-size: 1.2rem;
-  color: #f3e7d8;
+  color: #f7f1e2;
   border: none;
   }
 
   .btn-secondary:hover {
   background: #f3a732;
   border: none;
-  color:#f3e7d8;
+  color:#f7f1e2;
   }
 
   .line {
@@ -76,7 +76,7 @@
   }
 
   .back-to-top-button a {
-    color: #c7b65d;
+    color: #b8a756;
   }
 
   .back-to-top-button a:hover {
@@ -91,13 +91,13 @@
   #main-heading h1 {
   color: #f8b3cc;
   font-size: 6em;
-  text-decoration: underline #c7b65d 1px;
+  text-decoration: underline #b8a756 1px;
   }
 
   /*Nav*/
 
   nav {
-    background-color: #f3e7d8;
+    background-color: #f7f1e2;
   }
 
   .nav-item a {
@@ -108,7 +108,7 @@
   }
 
   .nav-pills .nav-link.active {
-  background-color: #c7b65d;
+  background-color: #b8a756;
   }
 
   .nav-item a:hover {
@@ -150,7 +150,7 @@
   #sidebar-icon a {
     font-size: 3em;
     text-decoration: none;
-    color: #c7b65d;
+    color: #b8a756;
     display: none;
     margin-bottom: 20px;
     padding: 0;
@@ -168,7 +168,7 @@
   #home-hero {
     height: 500px;
     position: relative;
-    color: #f3e7d8;
+    color: #f7f1e2;
   }
 
   #home-hero img {
@@ -187,15 +187,15 @@
 
   #home-hero h2 {
     color: #f8b3cc;
-    text-decoration: underline #c7b65d 1px;
+    text-decoration: underline #b8a756 1px;
   }
 
   #home-hero p {
-    color: #c7b65d;
+    color: #b8a756;
   }
 
   #learn-more-button a, #explore-our-menu-button a {
-    color: #f3e7d8;
+    color: #f7f1e2;
   }
 
   /*About Us*/
@@ -235,25 +235,25 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 1.2em;
-    color: #c7b65d;
+    color: #b8a756;
   }
 
   #about-us-container p {
     text-align: center;
-    color: #271c35;
+    color: #b8a756;
     padding: 10px;
     margin: 10px;
   }
 
   #local-support-section {
     padding: 15px 20px 10px 20px;
-    background-color: #c7b65d;
+    background-color: #b8a756;
     border-radius: 30px;
     margin: 10px 50px 10px 50px;
   }
 
   #local-support-section p {
-    color: #f3e7d8;
+    color: #f7f1e2;
   }
 
   /*Founders*/
@@ -264,14 +264,14 @@
   }
 
   #founders-container {
-    background-color: #c7b65d;
+    background-color: #b8a756;
     padding: 10px;
     border-radius: 25px;
   }
 
   #founders h2 {
-    color: #f3e7d8;
-    text-decoration: underline #c7b65d 1px;
+    color: #f7f1e2;
+    text-decoration: underline #b8a756 1px;
     margin: 20px 0;
     padding-top: 20px;
   }
@@ -282,7 +282,7 @@
   }
 
   #founders-container p {
-    color: #f3e7d8;
+    color:#f7f1e2;
   }
 
   #our-story {
@@ -292,11 +292,11 @@
   }
 
   #our-story h2 {
-    color: #f3e7d8;
+    color:#f7f1e2;
   }
 
   #our-story p {
-    color: #f3e7d8;
+    color: #f7f1e2;
     padding: 0;
     margin: 10px;
   }
@@ -304,11 +304,11 @@
  /*Footer*/
 
   .bg-light {
-    background-color: #f3e7d8 !important;
+    background-color: #f7f1e2 !important;
   }
 
   footer h4 {
-    color: #c7b65d;
+    color: #b8a756;
     font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
   }
@@ -325,6 +325,7 @@
 
   footer p {
     text-align: center;
+    color: #b8a756;
   }
 
   footer i {
@@ -339,10 +340,6 @@
 
   /*Menu*/
 
-  #menu {
-    background-color: #f3e7d8;
-  }
-
   .menu-section {
     padding: 10px;
     margin: 10px;
@@ -353,7 +350,7 @@
     text-align: inherit;
     text-transform: uppercase;
     color: #f8b3cc;
-    text-decoration: underline #c7b65d 1px;
+    text-decoration: underline #b8a756 1px;
   }
 
   .menu-section h3 {
@@ -361,12 +358,16 @@
     letter-spacing: 3px;
     font-weight: 400;
     font-size: 1.2em;
-    color: #c7b65d;
+    color: #ed583f;
     font-family: "Montserrat", sans-serif;
   }
 
+  .menu-section p {
+    color: #b8a756;
+  }
+
   .prices {
-    color: #f3e7d8;
+    color: #f7f1e2;
   }
 
   #dietary-requirements p {
@@ -382,12 +383,12 @@
   #introduction {
     margin: 0px 15px 5px 15px;
     padding: 10px;
-    background-color: rgb(199, 182, 93, 0.9);
+    background-color: rgb(184, 167, 86, 0.9);
     border-radius: 25px;
   }
 
   #introduction h2, p {
-    color:#f3e7d8
+    color:#f7f1e2;
   }
 
   #introduction p {
@@ -409,15 +410,15 @@
     width: 85%;
     height: auto;
     margin: 10px auto;
-    border: 5px solid #c7b65d;
+    border: 5px solid #b8a756;
     border-radius: 40px;
   }
 
   /*https://css-pattern.com/3d-diamond/*/
   .gallery-background {
     --s: 40px; /* control the size*/
-    --c1: #c7b65d;
-    --c2: #f3e7d8;
+    --c1: #b8a756;
+    --c2: #f7f1e2;
     --c3: #ed583f;
     --c4: #f8b3cc;
     
@@ -472,17 +473,17 @@
 
   #upcoming-events-content h3 {
     font-size: 1.2em;
-    color: #c7b65d;
+    color: #b8a756;
     text-transform: uppercase;
   }
 
   #upcoming-events-content h2 {
   color: #f8b3cc;
-  text-decoration: underline #c7b65d 1px;
+  text-decoration: underline #b8a756 1px;
   }
 
   #upcoming-events-content p {
-  color: #f3e7d8;
+  color: #f7f1e2;
   }
 
   #book-here-events {
@@ -498,7 +499,7 @@
 
   #reviews h2 {
     color: #f8b3cc;
-    text-decoration: underline #c7b65d 1px;
+    text-decoration: underline #b8a756 1px;
   }
 
   .review {
@@ -507,7 +508,7 @@
 
   .review div {
     text-align: center;
-    color: #c7b65d;
+    color: #b8a756;
     font-size: 1.1em;
   }
 
@@ -524,19 +525,19 @@
   }
 
   #form-container {
-    background-color: #c7b65d;
+    background-color: #b8a756;
     padding: 40px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2);
   }
 
   #booking-heading h2 {
-    color: #f3e7d8;
-    text-decoration: underline #c7b65d 1px;
+    color: #f7f1e2;
+    text-decoration: underline #b8a756 1px;
   }
 
   #booking-heading p {
-    color: #f3e7d8;
+    color: #f7f1e2;
   }
 
   #form-content legend {
@@ -548,7 +549,7 @@
   }
 
   #form-content label {
-    color: #f3e7d8;
+    color: #f7f1e2;
   }
 
   /*Map*/
@@ -615,7 +616,7 @@
 
     #home-hero h1 {
       color: #f8b3cc;
-      text-decoration: underline #c7b65d 1px;
+      text-decoration: underline #b8a756 1px;
       font-size: 1.3em;
       }
   }
