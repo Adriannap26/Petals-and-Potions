@@ -381,17 +381,17 @@
   /*Gallery*/
 
   #introduction {
-    margin: 0px 15px 5px 15px;
-    padding: 10px;
-    background-color: rgb(184, 167, 86, 0.9);
-    border-radius: 25px;
+    margin: 5px;
+    padding: 0;
   }
 
-  #introduction h2, p {
-    color:#f7f1e2;
+  #introduction h2 {
+    color: #f8b3cc;
+    text-decoration: underline #b8a756 1px;
   }
 
   #introduction p {
+    color: #b8a756;
     font-size: 1.1em;
   }
 
@@ -417,10 +417,10 @@
   /*https://css-pattern.com/3d-diamond/*/
   .gallery-background {
     --s: 40px; /* control the size*/
-    --c1: #b8a756;
+    --c1: #b8a85650;
     --c2: #f7f1e2;
-    --c3: #ed583f;
-    --c4: #f8b3cc;
+    --c3: #ed593f71;
+    --c4: #f8b3cc7c;
     
     --c:,#0000 39%,var(--c1) 40% 93%,#0000 94%;
     --_s:calc(1.5*var(--s))/calc(4*var(--s)) calc(3*var(--s));
