@@ -346,19 +346,7 @@ All pages contain the same header and footer.
 
 ### Validator testing
 
-#### Final results: 
-
-#### Home:
-### ![Text](documentation/testing/home-validation-passed.PNG)
-
-#### Menu:
-### ![Text](documentation/testing/menu-validation-passed.PNG)
-
-#### Gallery:
-### ![Text](documentation/testing/gallery-validation-passed.PNG)
-
-#### Events and Bookings:
-### ![Text](documentation/testing/eventsandbookings-validation-passed.PNG)
+[View final results here.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadriannap26.github.io%2FPetals-and-Potions%2F)
 
 ### Bug Fixes 
 
