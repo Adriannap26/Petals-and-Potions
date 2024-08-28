@@ -246,18 +246,18 @@ All pages contain the same header and footer.
 
 | **First Time Visitor Goals** | **Solution** | **Outcome** |
 | ---| ---| ---|
-|I want to find out more about the Cafe. | The home page featured an easily visible 'Learn more about us' button which takes the user to the 'About Us' section.| Complete
-|I want to see the location of the Cafe.| The location of the Cafe is easily visible in the footer, there is also a map on the events and bookings page below the enquiry form to support the user with planning their journey.| Complete
-|I want to see what the Cafe and the offerings look like and if it is somewhere where I see myself visiting. I should be able to use the navigation bar to access the Gallery section easily. | The gallery featured a  variety of photographs including food, drinks, flowers and the cafe itself.| Complete
-|I want to view the menu to see what the Cafe offers. I should be able to easily access the menu page to see the variety of food and drinks available along with dietary options.|The menu is easily accessible via the navigation bar. The menu includes detailed descriptions, prices and dietary requirement icons. The home page also includes an easily visible 'Explore our menu' buttons which makes it easy for the user to find the menu.| Complete
-|I want to book a table easily. | The User can simply book a table via the bookings form on te events and bookings page. There is also a 'book now' button at the bottom of the menu which takes the user to the events and bookings page. | Complete
+|I want to find out more about the Cafe. | The home page featured an easily visible 'Learn more about us' button which takes the user to the 'About Us' section.| Passed
+|I want to see the location of the Cafe.| The location of the Cafe is easily visible in the footer, there is also a map on the events and bookings page below the enquiry form to support the user with planning their journey.| Passed
+|I want to see what the Cafe and the offerings look like and if it is somewhere where I see myself visiting. I should be able to use the navigation bar to access the Gallery section easily. | The gallery featured a  variety of photographs including food, drinks, flowers and the cafe itself.| Passed
+|I want to view the menu to see what the Cafe offers. I should be able to easily access the menu page to see the variety of food and drinks available along with dietary options.|The menu is easily accessible via the navigation bar. The menu includes detailed descriptions, prices and dietary requirement icons. The home page also includes an easily visible 'Explore our menu' buttons which makes it easy for the user to find the menu.| Passed
+|I want to book a table easily. | The User can simply book a table via the bookings form on te events and bookings page. There is also a 'book now' button at the bottom of the menu which takes the user to the events and bookings page. | Passed
 
 | **Returning/ Frequent Visitor Goals** | **Solution** | **Outcome** |
 | ---| ---| ---|
-|I want to view the upcoming events. | The User can view the upcoming events by clicking on the Events and Bookings page via the nav. | Complete
-|I want to be able to see any changes to the menu. | The menu features a vibrant badge showing all 'New' items on the menu. | Complete
-|I want to make reservations or send an enquiry using a simple and efficient submission process. | The bookings forms is very straight forward to use and it does not take a long time to complete. | Complete
-|I want to be able to find the contact information and location of the Cafe easily. | All contact information is included in the footer on every page making it very easily accessible. | Complete
+|I want to view the upcoming events. | The User can view the upcoming events by clicking on the Events and Bookings page via the nav. | Passed
+|I want to be able to see any changes to the menu. | The menu features a vibrant badge showing all 'New' items on the menu. | Passed
+|I want to make reservations or send an enquiry using a simple and efficient submission process. | The bookings forms is very straight forward to use and it does not take a long time to complete. | Passed
+|I want to be able to find the contact information and location of the Cafe easily. | All contact information is included in the footer on every page making it very easily accessible. | Passed
 
 #### Summary
 - Overall, the website is easy to navigate as it has a very simple navigation at the top of every page along with a footer which provides important information. The interactive elements keep to users engaged and they also make it easier to access certain information. The buttons encourage the user to stay engaged and view the menu. The book now button has been placed strategically to encourage users to book a table. While booking the user is also exposed to upcoming events which again, provides more engagement and potential bookings. 
@@ -266,17 +266,19 @@ All pages contain the same header and footer.
 
 | **Page** | **Testing** | **Outcome** |
 | ---| ---| ---|
-|All| Navigation links go to the correct page| Complete|
-|All| Header links back to the home page| Complete|
-|All| Social Media links to relevant platforms| Complete|
-|All| All content is responsive| Complete|
-|BOOKING| Booking form works as intended- Required fields| Complete|
+|All| Navigation links go to the correct page| Passed
+|All| Header links back to the home page| Passed
+|All| Social Media links to relevant platforms| Passed
+|All| All content is responsive| Passed
+|Bookings| Booking form works as intended- Required fields| Passed
+|Home- Learn more baout us| The learn more about us button takes you to the about us section| Passed
+|Home- Explore our menu| This button takes you to the menu| Passed
+|Menu- Book now| This button should take you to the events and bookings page| Passed
 
 ### Browser Testing
 
 -  Google Chrome [view](#)
--  Internet Explorer [view](#)
--  Microsoft Edge [view](#)
+-  Safari [view](#)
 -  Firefox [view](#)
 
 #### The website was viewed on such devices as: 
@@ -388,33 +390,14 @@ All pages contain the same header and footer.
 
 ## Deployment
 
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Adriannap26/Petals-and-Potions.git)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should have a copy of the original repository in your GitHub account.
-
-### Making a Local Clone
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Adriannap26/Petals-and-Potions)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-$ git `clone https://github.com/Adriannap26/Petals-and-Potions.git`
-
-7. Press Enter. Your local clone will be created.
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Adriannap26/Petals-and-Potions)
-
+- Log into GitHub account
+- Head to the project repository
+- Click on the "settings" tab near the top right of the page
+- Then to "pages" on the setting menu-left hand side
+- Source select "deploy from a branch"
+- Branch select "main" & "root"
+- Hit save
+- After a couple of minutes the site is now live.
 
 ## Credits
 
