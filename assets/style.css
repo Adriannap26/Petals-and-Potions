@@ -640,6 +640,18 @@
     text-align: center;
     color: #ed583f;
   }
+
+  @media (max-width: 768px) {
+    .mb-5 {
+      margin-bottom: 1rem !important
+    }
+
+    .review {
+      padding: 2px;
+      margin: 0;
+    }
+  }
+
  
   /*Enquiry Form*/
 
@@ -674,6 +686,13 @@
 
   #form-content label {
     color: #f7f1e2;
+  }
+
+  @media (max-width: 768px) {
+    
+    #form-container {
+      padding: 15px 10px 15px 10px;
+    }
   }
 
   /*Map*/
