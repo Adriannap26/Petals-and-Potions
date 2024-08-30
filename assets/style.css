@@ -317,6 +317,15 @@
     #upcoming-events-left, #upcoming-events-right {
       width: 100%;
     }
+
+    #local-support-section {
+      margin: 0;
+      padding: 10px 5px 10px 5px;
+    }
+
+    #about-us-container p {
+      margin: 2px 0 2px 0;
+    }
   }
 
   /*Founders*/
@@ -362,6 +371,30 @@
     color: #f7f1e2;
     padding: 0;
     margin: 10px;
+  }
+
+  @media (max-width:768px) {
+
+    #founders {
+      padding: 5px 20px 5px 20px;
+    }
+
+    #founders-container {
+      padding: 2px;
+    }
+
+    #founders h2 {
+      margin: 0;
+      padding: 5px 0 5px 0;
+    }
+
+    #founders h3 {
+      font-size: 1.2em;
+    }
+
+    #our-story p {
+      margin: 0;
+    }
   }
 
  /*Footer*/
