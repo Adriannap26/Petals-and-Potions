@@ -125,7 +125,6 @@
     color: #f8b3cc;
   }
 
-  
   /*Sidebar*/
 
   /*https://youtu.be/U8smiWQ8Seg?feature=shared*/
@@ -228,7 +227,8 @@
   }
 
   #home-hero p {
-    color: #b8a756;
+    color: #e0cd6a;
+    font-size: 1.2em;
   }
 
   #learn-more-button a, #explore-our-menu-button a {
@@ -243,7 +243,12 @@
 
     #home-hero h1 {
       font-size: 1.3em;
-      }
+    }
+
+    #home-hero p {
+      font-size: 1.1em;
+      letter-spacing: 0px;
+    }
   }
 
   /*About Us*/
@@ -320,7 +325,7 @@
 
     #local-support-section {
       margin: 0;
-      padding: 10px 5px 10px 5px;
+      padding: 10px;
     }
 
     #about-us-container p {
@@ -407,10 +412,13 @@
     color: #b8a756;
     font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
+    font-weight: 400;
+    padding-bottom: 5px;
+    margin: 0;
   }
 
   footer a {
-    color: #f8b3cc;
+    color: #ed583f;
     text-decoration: none;
   }
 
@@ -430,9 +438,9 @@
     font-size: 1.6em;
   }
 
- .social-links-column a:hover {
-  color: #f3a732;
- }
+  .social-links-column a:hover {
+    color: #f3a732;
+  }
 
   /*Menu*/
 
@@ -588,17 +596,17 @@
 
   #upcoming-events-content h3 {
     font-size: 1.2em;
-    color: #b8a756;
+    color: #e0cd6a;
     text-transform: uppercase;
   }
 
   #upcoming-events-content h2 {
-  color: #f8b3cc;
-  text-decoration: underline #b8a756 1px;
+    color: #f8b3cc;
+    text-decoration: underline #b8a756 1px;
   }
 
   #upcoming-events-content p {
-  color: #f7f1e2;
+    color: #f7f1e2;
   }
 
   #book-here-events {
@@ -699,7 +707,7 @@
   
   /*source: code institute coders coffeehouse cafe code*/
   #map-wrapper {
-  height: 300px;
+    height: 300px;
   }
 
   #map {
