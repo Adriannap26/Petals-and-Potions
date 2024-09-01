@@ -1,19 +1,20 @@
-# Petals and Potions Cafe Website # 
+# Petals and Potions Cafe Website 
+![website-preview](documentation/testing/am-i-responsive-final.PNG)
 
-[View the live Project here.] ###
+## [View the live Project here](https://adriannap26.github.io/Petals-and-Potions/)
 
 Welcome to the Petals and Potions Cafe website read.me, this website was created for milestone project 1 (Web Development Diploma with Code Institute) and it showcases a beautifully designed, floral-inspired fictional cafe. The website features four main pages:
 
-1. Home Page: ADD LINK
+1. [Home Page](https://adriannap26.github.io/Petals-and-Potions/)
 - Includes a hero image with buttons to navigate to the menu and learn more about us sections, followed by an about us section, founders section and a footer with contact information, opening hours and social media links.
 
-2. Menu Page: ADD LINK
+2. [Menu Page](https://adriannap26.github.io/Petals-and-Potions/menu.html)
 - Displays the cafe's diverse menu, organised into sections for drinks, food, and desserts, complete with detailed descriptions and prices.
 
-3. Gallery Page: ADD LINK
+3. [Gallery Page](https://adriannap26.github.io/Petals-and-Potions/gallery.html)
 - Features a collection of images showcasing the cafe's delicious food, cakes, drinks, and the charming cafe ambiance.
 
-4. Events & Booking Page: ADD LINK
+4. [Events & Booking Page](https://adriannap26.github.io/Petals-and-Potions/eventsandbookings.html)
 - Lists detailed upcoming events on a large hero image, including a book here button. This page also includes a testimonials section and a booking enquiry form for customers to easily make reservations, followed by a map to help organise their visit.
 
 This is where the image with different browsers and screen sizes will go TBC
@@ -122,9 +123,7 @@ I used Balsamiq to create my wireframes. These were a rough idea of what I wante
 
 ## Features
 
--   #### Responsive on all devices - [view]
-
-MENTION THAT THE BUTTONS GET SMALLER ON SMALL SCREEN SIZES TO MAKE THE CONTENT MORE BLANCED.
+-   #### Responsive on all devices - [view](documentation/testing/am-i-responsive-final.PNG)
 
 ## Header and footer
 
@@ -172,7 +171,6 @@ All pages contain the same header and footer.
 
 - There is a map at the bottom of the enquiry form to allow the user to plan their journey and see the exact location fo the cafe. Please note that the address of the cafe is not real as this is a fictional cafe. 
 ### ![Text](documentation/website-screenshots/bookings-map.PNG)
-
 
 ### Other elements
 
@@ -239,6 +237,9 @@ All pages contain the same header and footer.
 - Github was used to store the project. 
 8. [Git](https://git-scm.com/)
 - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+9. [Tinify](https://tinify.com/web)
+- Tinify was used to make the hero images on the home page and events and bookings page smaller.
+
 
 ## Testing
 
@@ -298,6 +299,8 @@ All pages contain the same header and footer.
  - Used Tinify to make my hero image on the home page and the events and bookings hero image smaller which improved the performance of the website. 
  - I amended the colour of the paragraph on the hero image to a slightly lighter green to make it more visible which also improved the performance. 
  - Added a meta description tag in the head on all pages. 
+ - I dimmed the gallery background colours as the original colours were quite distracting.
+ -
 
 ##### Home 
 ### ![Text](documentation/testing/lighthouse/desktop-home-performance.PNG)
