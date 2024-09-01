@@ -294,55 +294,36 @@ All pages contain the same header and footer.
 
 #### Page Performance (Desktop)
 
-##### Home
-- Before:
-### ![Text](documentation/testing/lighthouse/desktop-home-performance-before.PNG)
+##### Improvements 
+ - Used Tinify to make my hero image on the home page and the events and bookings hero image smaller which improved the performance of the website. 
+ - I amended the colour of the paragraph on the hero image to a slightly lighter green to make it more visible which also improved the performance. 
+ - Added a meta description tag in the head on all pages. 
 
-- After: 
+##### Home 
+### ![Text](documentation/testing/lighthouse/desktop-home-performance.PNG)
 
 ##### Menu 
-- Before:
-### ![Text](documentation/testing/lighthouse/desktop-menu-performance-before.PNG)
-
-- After: 
+### ![Text](documentation/testing/lighthouse/desktop-menu-performance.PNG)
 
 ##### Gallery
-- Before:
-### ![Text](documentation/testing/lighthouse/desktop-gallery-performance-before.PNG)
-
-- After: 
+### ![Text](documentation/testing/lighthouse/desktop-gallery-performance.PNG)
 
 ##### Events and bookings
-- Before:
-### ![Text](documentation/testing/lighthouse/desktop-eventsandbookings-performance-before.PNG)
-
-- After: 
+### ![Text](documentation/testing/lighthouse/desktop-eventsandbookings-performance.PNG)
 
 #### Page Performance (Mobile)
 
 ##### Home
-- Before:
-### ![Text](documentation/testing/lighthouse/mobile-home-performance-before.PNG)
-
-- After: 
+### ![Text](documentation/testing/lighthouse/mobile-home-performance.PNG)
 
 ##### Menu 
-- Before:
-### ![Text](documentation/testing/lighthouse/mobile-menu-performance-before.PNG)
-
-- After: 
+### ![Text](documentation/testing/lighthouse/mobile-menu-performance.PNG)
 
 ##### Gallery
-- Before:
-### ![Text](documentation/testing/lighthouse/mobile-gallery-performance-before.PNG)
-
-- After: 
+### ![Text](documentation/testing/lighthouse/mobile-gallery-performance.PNG)
 
 ##### Events and bookings
-- Before:
-### ![Text](documentation/testing/lighthouse/mobile-eventsandbookings-performance-before.PNG)
-
-- After: 
+### ![Text](documentation/testing/lighthouse/mobile-eventsandbookings-performance.PNG)
 
 ### Validator testing
 
