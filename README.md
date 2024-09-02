@@ -240,7 +240,6 @@ All pages contain the same header and footer.
 9. [Tinify](https://tinify.com/web)
 - Tinify was used to make the hero images on the home page and events and bookings page smaller.
 
-
 ## Testing
 
 ### User Story Testing 
@@ -275,6 +274,7 @@ All pages contain the same header and footer.
 |Home- Learn more baout us| The learn more about us button takes you to the about us section| Passed
 |Home- Explore our menu| This button takes you to the menu| Passed
 |Menu- Book now| This button should take you to the events and bookings page| Passed
+|Sidebar- small devices| The sidebar should appear on devices which are smaller than 765px on every page| Passed
 
 ### Browser Testing
 
@@ -330,7 +330,9 @@ All pages contain the same header and footer.
 
 ### Validator testing
 
-[View final results here.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadriannap26.github.io%2FPetals-and-Potions%2F)
+[HTML Validator- View final results here.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadriannap26.github.io%2FPetals-and-Potions%2F)
+
+[CSS Validator- View final results here.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadriannap26.github.io%2FPetals-and-Potions%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Bug Fixes 
 
