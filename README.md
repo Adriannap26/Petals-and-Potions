@@ -357,10 +357,12 @@ All pages contain the same header and footer.
 #### My map code was not structured well so I added a div to the section which fixed the error. 
 #### ![Text](documentation/testing/map-error.PNG)
 
+#### I noticed that one of the 'founders' images did not enlarge on bigger screen sizes as the picture itself wasvery small so I decided to reupload the photos in a different size which fixed the issue. I also ensured that all pictures were the same size. 
+#### ![Text](documentation/testing/picture-error-before.PNG)
+
 ### Known Bugs
 
 -   Gallery- the first image on the right is not equal in height to all the other images creating an uneven gap between the images. 
--   #
 
 ## Deployment
 
