@@ -63,6 +63,20 @@
     }
   }
 
+  @media (min-width: 1400px) {
+    h2 {
+      font-size: 4em;
+  }
+  
+    h3 {
+      font-size: 2.2em;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+  }
+
   .btn-secondary {
     background-color: #ed583f;
     padding: 10px;
@@ -93,6 +107,12 @@
     color: #f3a732;
   }
 
+  @media (min-width: 1400px) {
+    .back-to-top-button a {
+      font-size: 1.5em;
+    }
+  }
+
   /*Header*/
   header {
     margin: 0;
@@ -102,6 +122,12 @@
     color: #f8b3cc;
     font-size: 6em;
     text-decoration: underline #b8a756 1px;
+  }
+
+  @media (min-width: 1400px) {
+    #main-heading h1 {
+      font-size: 9em;
+    }
   }
 
   /*Nav*/
@@ -123,6 +149,12 @@
 
   .nav-item a:hover {
     color: #f8b3cc;
+  }
+
+  @media (min-width: 1400px) {
+    .nav-item a {
+      font-size: 1.8em;
+    }
   }
 
   /*Sidebar*/
@@ -251,6 +283,33 @@
     }
   }
 
+  @media (min-width: 1400px) {
+    .button a {
+      padding: 10px;
+      font-size: 1.3em;
+    }
+
+    #home-hero h1 {
+      font-size: 2.5em;
+    }
+
+    #home-hero p {
+      font-size: 1.5em;
+    }
+
+    #home-hero {
+      height: 800px;
+    }
+  
+    #home-hero img {
+      height: 800px;
+    }
+
+    #home-hero-content {
+      height: 800px;
+    }
+  }
+
   /*About Us*/
 
   #about-us h2 {
@@ -330,6 +389,13 @@
 
     #about-us-container p {
       margin: 2px 0 2px 0;
+    }
+  }
+
+  @media (min-width: 1400px) {
+
+    #local-support-section {
+      margin: 10px 50px 10px 50px;
     }
   }
 
@@ -501,6 +567,28 @@
     }
   }
 
+  @media (min-width: 1400px) {
+    .menu-section h3 {
+      font-size: 2.2em;
+    }
+
+    .menu-section h2 {
+      font-size: 4em;
+    }
+
+    .menu-section p {
+      font-size: 2em;
+    }
+
+    #book-here-menu h4 {
+      font-size: 3em;
+    }
+
+    #dietary-requirements p {
+      font-size: 1.8em;
+    }
+  }
+
   /*Gallery*/
 
   #introduction {
@@ -517,7 +605,7 @@
     color: #b8a756;
     font-size: 1.1em;
   }
-
+  
   /*https://www.sitepoint.com/css-grid-repeat-function/*/
 
   #images {
@@ -622,6 +710,12 @@
     }
   }
 
+  @media (min-width: 1400px) {
+    #upcoming-events-content h3 {
+      font-size: 1.7em;
+    }
+  }
+
   /*Reviews*/
 
   #reviews {
@@ -660,7 +754,12 @@
     }
   }
 
- 
+  @media (min-width: 1400px) {
+    .review div {
+      font-size: 1.8em;
+    }
+  }
+
   /*Enquiry Form*/
 
   #form {
@@ -700,6 +799,12 @@
     
     #form-container {
       padding: 15px 10px 15px 10px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    #form {
+
     }
   }
 
