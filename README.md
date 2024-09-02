@@ -42,9 +42,6 @@ This is where the image with different browsers and screen sizes will go TBC
    - As a returning Customer, I want to be able to see any changes to the menu. 
    - I want to make reservations or send an enquiry using a simple and efficient submission process.
    - I want to be able to find the contact information and location of the Cafe easily. 
-   <!--
-   - I want to be able to subscribe to the newsletter in order to receive special offers and receive communication regarding upcoming events. 
-   -->
 
    ##### Frequent Customer Goals
    - I want to view the upcoming events.
@@ -278,9 +275,7 @@ All pages contain the same header and footer.
 
 ### Browser Testing
 
--  Google Chrome [view](#)
--  Safari [view](#)
--  Firefox [view](#)
+The website has been tested on Chrome, Mozilla, Edge & Safari (mobile.) The responsiveness has been tested using the screen device size on devtools. I have also made sure that all links and images are visible and working as they should be.
 
 #### The website was viewed on such devices as: 
 - Desktop [view](#)
@@ -377,7 +372,15 @@ All pages contain the same header and footer.
 
 ## Credits
 
-Events and Bookings Page positioning https://love2dev.com/blog/absolute-centering-css/
+### Code
+- General coding avice [W3School](https://www.w3schools.com/)
+- Events and Bookings Page positioning guidance [Love to dev blog](https://love2dev.com/blog/absolute-centering-css/)
+- [Font Awesome for icons](https://fontawesome.com/)
+- Sidebar html, css and javascript code from [Coding 2 go](https://youtu.be/U8smiWQ8Seg?feature=shared)
+- Code institute "love running" project, I used the map code to create my own in my website. 
+
+## Acknowledgments
+- I want to say a big thank you to my mentor Moritz for all your help and great ideas. Also, thank you to my tutor Miguel for all your support and help throughout the project.
 
 
 
