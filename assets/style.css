@@ -625,25 +625,8 @@
     border-radius: 40px;
   }
 
-  /*https://css-pattern.com/3d-diamond/*/
   .gallery-background {
-    --s: 40px; /* control the size*/
-    --c1: #b8a85650;
-    --c2: #f7f1e2;
-    --c3: #ed593f71;
-    --c4: #f8b3cc7c;
-    
-    --c:,#0000 39%,var(--c1) 40% 93%,#0000 94%;
-    --_s:calc(1.5*var(--s))/calc(4*var(--s)) calc(3*var(--s));
-    background:
-      radial-gradient(calc(1.5*var(--s)) at 37.5%   0%var(--c))
-       calc(-.5*var(--s)) var(--_s),
-      radial-gradient(calc(1.5*var(--s)) at 37.5% 100%var(--c))
-       calc(1.5*var(--s)) var(--_s),
-      radial-gradient(25% calc(50%/3),#0000 96%,var(--c2))
-       0 0/calc(2*var(--s)) calc(3*var(--s)),
-      repeating-conic-gradient(var(--c3) 0 25%,var(--c4) 0 50%)
-       0 0/calc(4*var(--s)) calc(6*var(--s));
+    background-color: #f8b3cc86;
   }
 
   /*Events & Bookings*/
@@ -771,7 +754,6 @@
     background-color: #b8a756;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.2);
   }
 
   #booking-heading h2 {
@@ -799,12 +781,6 @@
     
     #form-container {
       padding: 15px 10px 15px 10px;
-    }
-  }
-
-  @media (min-width: 1400px) {
-    #form {
-
     }
   }
 
