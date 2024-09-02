@@ -65,7 +65,9 @@ This is where the image with different browsers and screen sizes will go TBC
    -  Home page images:
 
       1. [Home hero image](#)
-      1. [Founders images](#)
+      2. [Founders image 1](https://www.pexels.com/photo/magenta-beautiful-woman-14994091/)
+      3. [Founders image 2](https://www.pexels.com/photo/            a-woman-wearing-a-black-printed-shirt-and-a-rice-hat-4927361/)
+      4. [Founders image 3](https://www.pexels.com/photo/man-wearing-blue-crew-neck-t-shirt-2379005/)
 
    -  Gallery:
 
