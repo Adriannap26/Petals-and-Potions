@@ -17,7 +17,7 @@
 
   .button a {
     color: #f7f1e2;
-    background-color: #86783a;
+    background-color: #ed583f;
     padding: 15px;
     border-radius: 25px;
     font-size: 1.2em;
@@ -78,7 +78,7 @@
   }
 
   .btn-secondary {
-    background-color: #86783a;
+    background-color: #ed583f;
     padding: 10px;
     font-size: 1.2rem;
     color: #f7f1e2;
