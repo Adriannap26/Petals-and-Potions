@@ -9,15 +9,13 @@ Welcome to the Petals and Potions Cafe website read.me, this website was created
 - Includes a hero image with buttons to navigate to the menu and learn more about us sections, followed by an about us section, founders section and a footer with contact information, opening hours and social media links.
 
 2. [Menu Page](https://adriannap26.github.io/Petals-and-Potions/menu.html)
-- Displays the cafe's diverse menu, organised into sections for drinks, food, and desserts, complete with detailed descriptions and prices.
+- Displays the cafe's diverse menu, organised into sections for seasonal specials, drinks, food, and desserts, complete with detailed descriptions and prices.
 
 3. [Gallery Page](https://adriannap26.github.io/Petals-and-Potions/gallery.html)
 - Features a collection of images showcasing the cafe's delicious food, cakes, drinks, and the charming cafe ambiance.
 
 4. [Events & Booking Page](https://adriannap26.github.io/Petals-and-Potions/eventsandbookings.html)
 - Lists detailed upcoming events on a large hero image, including a book here button. This page also includes a testimonials section and a booking enquiry form for customers to easily make reservations, followed by a map to help organise their visit.
-
-This is where the image with different browsers and screen sizes will go TBC
 
 ## User Experience (UX)
 
@@ -26,7 +24,7 @@ This is where the image with different browsers and screen sizes will go TBC
 
    - The website is a platform where visitors can explore the menu, learn about upcoming events, and easily make reservations. Beyond that, it’s a space to share the story of how the cafe was created, highlight the local flower farmers, and invite the community to join in, in celebrating the beauty of flowers in every aspect of the café.
 
-   - Through this website, the aim is to create an online experience that mirrors the warmth and charm of the physical space, making it easier for the customers to engage with the cafe, stay informed about what’s happening at the café, and feel a part of the thriving community.
+   - Through this website, the aim is to create an online experience that mirrors the warmth and charm of the physical space, making it easier for the customers to engage with the cafe, stay informed about what’s happening at the café, and feel a part of the thriving community which will hopefully increase the number of visitors.
    
    #### User stories
    
@@ -64,19 +62,25 @@ This is where the image with different browsers and screen sizes will go TBC
 
    -  Home page images:
 
-      1. [Home hero image](#)
+      1. [Home hero image](https://www.pexels.com/photo/macaroons-and-small-cakes-on-table-in-cozy-kitchen-4721993/)
       2. [Founders image 1](https://www.pexels.com/photo/magenta-beautiful-woman-14994091/)
-      3. [Founders image 2](https://www.pexels.com/photo/            a-woman-wearing-a-black-printed-shirt-and-a-rice-hat-4927361/)
+      3. [Founders image 2](https://www.pexels.com/photo/a-woman-wearing-a-black-printed-shirt-and-a-rice-hat-4927361/)
       4. [Founders image 3](https://www.pexels.com/photo/man-wearing-blue-crew-neck-t-shirt-2379005/)
 
    -  Gallery:
 
-      1. [Gallery image 1](#)
-      1. [Gallery image 2](#)
+      1. [Gallery image 21](https://www.pexels.com/photo/assorted-bunches-of-roses-in-flower-market-5272964/)
+      2. [Gallery image 20](https://www.pexels.com/photo/appetizing-assorted-hummus-served-with-mixed-salad-in-cafe-4940719/)
+      3. [Gallery image 4](https://www.pexels.com/photo/pieces-of-colorful-cakes-on-tray-4722022/)
+      4. [Gallery image 5](https://www.pexels.com/photo/anonymous-florist-arranging-bouquet-in-flower-shop-4466552/)
+      5. [Gallery image 6](https://www.pexels.com/photo/woman-holding-a-cupcake-with-flowers-15505793/)
+      6. [Gallery image 2](https://www.pexels.com/photo/selective-focus-photography-of-flower-shop-1601505/)
+      7. [Gallery image 22](https://www.pexels.com/photo/a-cake-with-berries-and-flowers-on-top-27901832/)
+      8. [Gallery image 13](https://www.pexels.com/photo/tulips-around-plate-with-coffee-cups-27062782/)
 
    -  Events and Bookings:
 
-      1. [Events hero image](#)
+      1. [Events hero image](https://www.pexels.com/photo/hands-arranging-flower-bouquet-4238353/)
 
 ## Wireframes and Structure
 
@@ -276,11 +280,8 @@ All pages contain the same header and footer.
 
 The website has been tested on Chrome, Mozilla, Edge & Safari (mobile.) The responsiveness has been tested using the screen device size on devtools. I have also made sure that all links and images are visible and working as they should be.
 
-#### The website was viewed on such devices as: 
-- Desktop [view](#)
-- Laptop [view](#)
-- iPhone [view](#)
-
+#### Devices: 
+- The website was tested on a mobile phone (iPhone), a laptop and a large desktop monitor.
 - Please note that the website has also been tested by family and friends who have reported no issues. 
 
 ### Google Dev Tools & Lighthouse
@@ -292,9 +293,9 @@ The website has been tested on Chrome, Mozilla, Edge & Safari (mobile.) The resp
 ##### Improvements 
  - Used Tinify to make my hero image on the home page and the events and bookings hero image smaller which improved the performance of the website. 
  - I amended the colour of the paragraph on the hero image to a slightly lighter green to make it more visible which also improved the performance. 
+ - I amended the colour scheme to make the website more accessibile. 
  - Added a meta description tag in the head on all pages. 
- - I dimmed the gallery background colours as the original colours were quite distracting.
- -
+ - I removed the gallery background colours as the original colours were quite distracting.
 
 ##### Home 
 ### ![Text](documentation/testing/lighthouse/desktop-home-performance.PNG)
@@ -356,7 +357,8 @@ The website has been tested on Chrome, Mozilla, Edge & Safari (mobile.) The resp
 
 ### Known Bugs
 
--   Gallery- the first image on the right is not equal in height to all the other images creating an uneven gap between the images. 
+-   Gallery- the last picture of the gallery is not in line as one of the pictures is smaller than the other which creates a slight gap. 
+#### ![Text](documentation/testing/gallery-bug.PNG)
 
 ## Deployment
 
