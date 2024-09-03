@@ -50,8 +50,8 @@ This is where the image with different browsers and screen sizes will go TBC
 
 ## Design
    ### Colour Scheme
-   - The main colours of the website are ceramic white, pastel pink and light khaki.
-   - Orange and red in some of the content, elements and buttons to add a vibrant feel to the website as well as contrast.
+   - The main colours of the website are ceramic white, vibrant red and  khaki.
+   - Pink and light khaki in some of the content, elements and buttons to add a vibrant feel to the website as well as contrast.
    - I used [Color Mind](http://colormind.io/) to decide which colours would look well together. 
    ### ![Text](documentation/colour-scheme/final-colour-scheme.PNG)
 
@@ -153,9 +153,6 @@ All pages contain the same header and footer.
 -  The hero image on the home page includes two buttons: Learn more about us and explore our menu.  The learn more about us buttons takes the user to the about us section on the home page. The explore our menu button takes the user to the menu page.
 ### ![Text](documentation/website-screenshots/home-hero-buttons.PNG)
 
--  All pages include the back to top arrows allowing the users to easily go to the top of each page.
-### ![Text](documentation/website-screenshots/back-to-top-button.PNG)
-
 - The footer has social media links which take the user to the specific social media page. The email is also interactive and automatically brings up an email window when the user clicks on the email address. 
 ### ![Text](documentation/website-screenshots/footer.PNG)
 
@@ -209,7 +206,7 @@ All pages contain the same header and footer.
 ### ![Text](documentation/website-screenshots/reflections.PNG)
 
 - Finally, the bookings form allows the user to send an enquiry. I have seperated the form into two different sections: Your details and booking information. This gives thr user clarity and makes the process of completing the form more structured. The 'your details' section is marked as required so the user cannot send the enquiry without completing this information.
-### ![Text](documentation/website-screenshots/reflections.PNG)
+### ![Text](documentation/website-screenshots/booking-form-sections.PNG)
 
 ## Technologies
 
