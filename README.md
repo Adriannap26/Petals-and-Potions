@@ -355,10 +355,15 @@ The website has been tested on Chrome, Mozilla, Edge & Safari (mobile.) The resp
 #### I noticed that one of the 'founders' images did not enlarge on bigger screen sizes as the picture itself wasvery small so I decided to reupload the photos in a different size which fixed the issue. I also ensured that all pictures were the same size. 
 #### ![Text](documentation/testing/picture-error-before.PNG)
 
+#### In order to make the website more accessible I added a 'title' element to the iframe tag. I also added an aria label to all social media links in the footer.
+#### ![Text](documentation/testing/iframe-error.PNG)
+
 ### Known Bugs
 
--   Gallery- the last picture of the gallery is not in line as one of the pictures is smaller than the other which creates a slight gap. 
+- Gallery- the last picture of the gallery is not in line as one of the pictures is smaller than the other which creates a slight gap. 
 #### ![Text](documentation/testing/gallery-bug.PNG)
+- The website uses third-party cookies due to external links.
+#### ![Text](documentation/testing/cookies-error.PNG)
 
 ## Deployment
 
