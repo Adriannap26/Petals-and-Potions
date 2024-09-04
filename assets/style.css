@@ -753,7 +753,7 @@
   }
 
   #booking-heading h2 {
-    color: #ed583f;
+    color: #f7f1e2;
     text-decoration: underline #b8a756 1px;
   }
 
@@ -764,7 +764,7 @@
   #form-content legend {
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #ed583f;
+    color: #f7f1e2;
     font-size: 1.2em;
     font-weight: 500;
   }
